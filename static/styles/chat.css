@@ -1,0 +1,140 @@
+
+/* CHATBOX
+=============== */
+.chatbox {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+/* CONTENT IS CLOSE */
+.chatbox__support {
+    display: flex;
+    flex-direction: column;
+    background: #ffebeb;
+    width: 450px;
+    height: 600px;
+    z-index: -123456;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+    border-radius: 20px 20px 10px 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.10);
+}
+
+/* CONTENT ISOPEN */
+.chatbox--active {
+    transform: translateY(-130px);
+    z-index: 12345;
+    opacity: 1;
+    bottom: 20px;
+    right: 20px;
+    
+}
+
+/* BUTTON */
+.chatbox__button {
+    text-align: right;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 1000;
+  }
+  
+  .chatbox__button img {
+    width: 300px; 
+    height: 120px;
+}
+
+
+/* HEADER */
+.chatbox__header {
+    position: sticky;
+    top: 0;
+    background: #fcacd1;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: 15px 20px;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
+}
+
+.chatbox__image--header {
+    margin-right: 10px;
+}
+
+.chatbox__image--header img {
+    width: 35px;
+    height: 35px;
+}
+
+.chatbox__heading--header {
+    color: black;
+}
+
+/* MESSAGES */
+.chatbox__messages {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    flex-direction: column-reverse;
+}
+
+.messages__item {
+    max-width: 70%;
+    width: fit-content;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:8px 12px;
+    color: black;
+}
+
+.messages__item--visitor {
+    margin-left: auto;
+    border-radius: 20px 20px 0px 20px;
+    background: #5299c1;
+}
+
+.messages__item--operator {
+    margin-right: auto;
+    border-radius: 20px 20px 20px 0px;
+    background: #fcacd1;
+}
+
+/* FOOTER */
+.chatbox__footer {
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0px -10px 15px rgba(0, 0, 0, 0.10);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.chatbox__footer input {
+    border: none;
+    padding: 15px 15px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.chatbox__footer input[type="text"]:valid ~ 
+
+.chatbox__send--footer {
+    color: #fcacd1;
+}
+
+.chatbox__footer input:focus {
+    outline:none;
+}
+
