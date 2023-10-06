@@ -18,7 +18,8 @@ Pastikan memiliki Python dan pip terinstal. Selanjutnya, ikuti langkah ini ya :
 4. Instal dependensi proyek:
 
    pip install -r requirements.txt
+   (manual dulu ya, soalnya belum di commit ulang)
 
-5. run proyek:
+6. run proyek:
    
    python app.py
