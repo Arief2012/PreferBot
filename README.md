@@ -8,11 +8,17 @@ Pastikan memiliki Python dan pip terinstal. Selanjutnya, ikuti langkah ini ya :
    git clone (https://github.com/Arief2012/orbit_skincare.git)
 
 2. Buat virtual environment :
-   conda create --name namaenv_bebas python=3.
+   
+   conda create --name namaenv_bebas
+
+   lalu
+
+   conda activate namaenv_bebas
 
 4. Instal dependensi proyek:
 
    pip install -r requirements.txt
 
 5. run proyek:
+   
    python app.py
