@@ -1,2 +1,2 @@
-model h2 : https://drive.google.com/file/d/1632wGKoPhEduPJnxJ7SuIuWHA-BNuSPF/view?usp=sharing
+model : https://drive.google.com/drive/folders/1qRcjnDbyCtmn6cCOwZ7GYQkecqQRq-Gb?usp=sharing
 download dulu modelnya, gak ku masukan ke github karna terlalu besar
