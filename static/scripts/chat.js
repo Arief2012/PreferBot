@@ -9,15 +9,14 @@ class InteractiveChatbox {
     }
 
     display() {
-        const { button, chatbox } = this.args;
-
+        const {button, chatbox} = this.args;
+        
         button.addEventListener('click', () => this.toggleState(chatbox))
     }
 
     toggleState(chatbox) {
         this.state = !this.state;
         this.showOrHideChatBox(chatbox, this.args.button);
-        this.toggleCloseButton(this.state, this.args.button); // Menambah pemanggilan toggleCloseButton
     }
 
     showOrHideChatBox(chatbox, button) {

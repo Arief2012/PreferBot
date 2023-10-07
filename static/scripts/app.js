@@ -55,5 +55,8 @@ function generateResponse(input) {
         conversation.appendChild(message);
         message.scrollIntoView({behavior: "smooth"});
         
+        // return msgText;
+        // appendMessage(BOT_NAME, BOT_IMG, "left", msgText);
     });
+
   }

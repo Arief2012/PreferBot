@@ -109,32 +109,36 @@
 
 /* FOOTER */
 .chatbox__footer {
-    position: sticky;
-    bottom: 0;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 15px;
-    background-color: #FFFFFF;
-    box-shadow: 0px -10px 15px rgba(0, 0, 0, 0.10);
-    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+    border-top: var(--border);
+    background: #eee;
 }
+
+.chatbox__footer * {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+  }
 
 .chatbox__footer input {
-    border: none;
-    padding: 15px 15px;
-    width: 100%;
-    background-color: transparent;
+    flex: 1;
+    background: #ddd;
 }
 
-.chatbox__footer input[type="text"]:valid ~ 
+.chatbox__footer input[type="text"]:valid ~ .chatbox__send--footer {
+    color: green;
+}
 
 .chatbox__send--footer {
-    color: #fcacd1;
+    margin-left: 10px;
+    font-weight: bold;
+    background: #ddd;
+    cursor: pointer;
 }
 
-.chatbox__footer input:focus {
-    outline:none;
-}
+.chatbox__send--footer:hover{
+    background: #bdbdbd;
 
+}

@@ -1,0 +1,329 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hallo",
+                "hai",
+                "halo",
+                "hei",
+                "hi",
+                "hy",
+                "helo"
+            ],
+            "responses": [
+                "Halo! Ms.Dora disini. Ada yang bisa saya bantu?",
+                "Hai! Ada yang bisa saya bantu tentang seputar perawatan wajah?",
+                "Hai! Ms.Dora disini. Ada yang bisa saya bantu mengenai info perawatan wajah?"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Matur nuwun",
+                "makasih",
+                "Terimakasih"
+            ],
+            "responses": [
+                "Sama-sama, senang bisa membantu anda!",
+                "Terima kasih kembali, semoga informasi yang kami berikan bermanfaat.",
+                "Tidak ada masalah, senang bisa memberikan bantuan.",
+                "Senang bisa membantu, silakan hubungi kami lagi jika ada pertanyaan lain."
+            ]
+        },
+        {
+            "tag": "Preferbot",
+            "patterns": [
+                "Apa itu Preferbot?",
+                "Preferbot",
+                "aplikasi Preferbot"
+            ],
+            "responses": [
+                "Preferbot adalah aplikasi rekomendasi facecare yang terdapat fitur sistem rekomendasi skincare chatbot",
+                "Preferbot itu adalah website informasi tentang perawatan wajah dan rekomendasi facecare!",
+                "Preferbot merupakan suatu aplikasi rekomendasi facecare berbasis website yang berguna untuk mengetahui informasi seputar rekomendasi dan juga perawatan wajah"
+            ]
+        },
+        {
+            "tag": "nama",
+            "patterns": [
+                "nama kamu siapa?",
+                "namamu siapa?",
+                "siapa sih anda?",
+                "kamu siapa?",
+                "nama?",
+                "nama lu siapa?",
+                "Nama kmu sapa?"
+            ],
+            "responses": [
+                "Namaku Ms.Dora, salam kenal ya!",
+                "Halo, aku Ms.Dora!",
+                "Kenalin, aku Ms.Dora!",
+                "Aku Ms.Dora, ada yang mau ditanyain?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Dah",
+                "Dadah",
+                "Bye",
+                "Byee",
+                "Good bye",
+                "Selamat tinggal",
+                "Sampai jumpa",
+                "Bai",
+                "See you"
+            ],
+            "responses": [
+                "Bye!",
+                "Dadahh!",
+                "Good bye!",
+                "Dahh, semoga harimu menyenangkan yaa!",
+                "Sampai jumpa lagi!",
+                "See u! Senang bisa membantu"
+            ]
+        },
+        {
+            "tag": "noda_hitam",
+            "patterns": [
+                "Bagaimana cara menghilangkan noda hitam di bawah mata?",
+                "Cara menghilangkan noda hitam di sekitar mata?",
+                "Solusi untuk noda hitam di bawah mata?"
+            ],
+            "responses": [
+                "Untuk menghilangkan noda hitam di bawah mata, Anda bisa mencoba menggunakan krim mata yang mengandung retinol atau vitamin C.",
+                "Perawatan laser juga bisa menjadi pilihan untuk menghilangkan noda hitam di bawah mata. Namun, sebaiknya konsultasikan dengan dokter kulit terlebih dahulu.",
+                "Selain produk perawatan, Anda juga bisa mengurangi noda hitam dengan tidur yang cukup, menerapkan masker madu alami, atau menghindari eksposur berlebihan terhadap matahari."
+            ]
+        },
+        {
+            "tag": "kulit_berminyak",
+            "patterns": [
+                "Apa yang bisa saya lakukan untuk mengurangi kulit berminyak?",
+                "Cara mengatasi kulit berminyak",
+                "Tips untuk mengontrol minyak pada wajah"
+            ],
+            "responses": [
+                "Untuk mengurangi kulit berminyak, Anda bisa mencuci wajah dua kali sehari dengan pembersih yang cocok untuk kulit berminyak. Gunakan produk tanpa minyak dan perhatikan pola makan Anda dengan menghindari makanan berlemak berlebihan.",
+                "cara mengatasi kulit berminyak dengan menggunakan toner yang mengandung asam salisilat, masker lumpur secara teratur, dan menjaga kebersihan kulit sangat penting dalam mengontrol minyak pada wajah."
+            ]
+        },
+        {
+            "tag": "perawatan_musim_dingin",
+            "patterns": [
+                "Bagaimana cara merawat kulit saya selama musim dingin?",
+                "Tips perawatan kulit saat cuaca dingin",
+                "Cara menjaga kulit tetap sehat saat musim dingin"
+            ],
+            "responses": [
+                "Saat musim dingin, penting untuk menjaga kelembaban kulit dengan menggunakan pelembap yang kaya dan menghindari mandi dengan air panas terlalu sering. Gunakan tabir surya bahkan saat cuaca dingin untuk melindungi kulit dari sinar UV yang merusak.",
+                "Anda juga bisa mempertimbangkan untuk menggunakan minyak wajah, meminimalkan penggunaan produk beralkohol, dan mengonsumsi makanan yang kaya akan vitamin C untuk merawat kulit selama musim dingin."
+            ]
+        },
+        {
+            "tag": "kerutan_dahi",
+            "patterns": [
+                "Apakah ada tips untuk meminimalkan kerutan di dahi?",
+                "Cara mengurangi kerutan di dahi",
+                "Pencegahan kerutan di wajah"
+            ],
+            "responses": [
+                "Untuk meminimalkan kerutan di dahi, Anda bisa menggunakan krim anti-penuaan yang mengandung retinol atau asam hialuronat. Juga, pastikan Anda menjaga kulit terhidrasi dengan baik dan hindari paparan sinar matahari berlebih.",
+                "Selain itu, perawatan kulit yang melibatkan teknik pijat wajah, mengonsumsi banyak air, dan menghindari merokok dapat membantu mengurangi kerutan di dahi."
+            ]
+        },
+        {
+            "tag": "pencarian_pori_kecil",
+            "patterns": [
+                "Sarankan produk perawatan yang dapat mengurangi pori-pori besar.",
+                "Bagaimana cara membuat pori-pori wajah lebih kecil?",
+                "Produk untuk pori-pori besar"
+            ],
+            "responses": [
+                "Untuk mengurangi pori-pori besar, Anda dapat mencari produk perawatan yang mengandung asam salisilat atau niacinamide. Produk ini dapat membantu menyempitkan pori-pori dan menjaga kulit tampak lebih halus.",
+                "Selain itu, perawatan rutin seperti eksfoliasi dengan lembut dan membersihkan wajah secara teratur juga dapat membantu mengurangi masalah pori-pori besar."
+            ]
+        },
+        {
+            "tag": "menghilangkan_bekas_luka",
+            "patterns": [
+                "Apa yang bisa saya lakukan untuk menghilangkan bekas luka di wajah?",
+                "Cara merawat bekas luka kulit",
+                "Produk yang efektif untuk menghilangkan bekas luka"
+            ],
+            "responses": [
+                "Untuk menghilangkan bekas luka di wajah, Anda bisa menggunakan produk perawatan yang mengandung bahan seperti retinol, vitamin C, atau asam hialuronat. Produk ini dapat membantu memudarkan bekas luka dan merangsang pertumbuhan sel kulit baru.",
+                "Perawatan laser dan mikrodermabrasi juga dapat menjadi pilihan jika bekas luka cukup menonjol. Sebaiknya berkonsultasi dengan dokter kulit untuk perawatan yang sesuai."
+            ]
+        },
+        {
+            "tag": "kulit_cerah_bersinar",
+            "patterns": [
+                "Bagaimana cara menjaga kulit tetap cerah dan bersinar?",
+                "Tips agar kulit tampak lebih cerah",
+                "Produk perawatan untuk kulit yang bersinar"
+            ],
+            "responses": [
+                "Untuk menjaga kulit tetap cerah dan bersinar, penting untuk menjaga kelembaban kulit dengan menggunakan pelembap secara teratur. Selain itu, gunakan produk perawatan yang mengandung vitamin C untuk merangsang produksi kolagen dan mencerahkan kulit.",
+                "Juga, hindari paparan sinar matahari berlebihan, dan gunakan tabir surya setiap hari untuk melindungi kulit dari kerusakan akibat sinar UV."
+            ]
+        },
+        {
+            "tag": "kulit_berjerawat_kehamilan",
+            "patterns": [
+                "Apakah ada perawatan khusus untuk kulit berjerawat selama kehamilan?",
+                "Cara mengatasi jerawat saat hamil",
+                "Produk perawatan kulit berjerawat untuk ibu hamil"
+            ],
+            "responses": [
+                "Selama kehamilan, penting untuk menggunakan produk perawatan kulit yang aman untuk ibu hamil. Anda bisa mencari produk yang mengandung asam salisilat atau asam glikolat yang biasanya aman digunakan.",
+                "Selalu konsultasikan dengan dokter Anda sebelum memulai perawatan kulit baru saat hamil untuk memastikan keamanan bagi Anda dan bayi Anda."
+            ]
+        },
+        {
+            "tag": "perawatan_mata_kantung",
+            "patterns": [
+                "Apa produk perawatan mata yang efektif untuk menghilangkan kantung mata?",
+                "Cara mengatasi kantung mata",
+                "Sarankan produk perawatan mata yang bagus"
+            ],
+            "responses": [
+                "Untuk menghilangkan kantung mata, Anda bisa mencari produk perawatan mata yang mengandung bahan seperti peptida dan vitamin K. Produk ini dapat membantu mengurangi pembengkakan dan memperbaiki elastisitas kulit di sekitar mata.",
+                "Selain itu, hindari kurang tidur dan konsumsi cukup air untuk menjaga mata tetap segar. Juga, gunakan pendinginan mata seperti kompres dingin atau masker mata."
+            ]
+        },
+        {
+            "tag": "masker_wajah_alami",
+            "patterns": [
+                "Sarankan masker wajah alami yang bisa saya buat di rumah.",
+                "Resep masker wajah alami",
+                "Cara membuat masker wajah dari bahan alami",
+                "Masker wajah alami yang efektif"
+            ],
+            "responses": [
+                "Anda bisa mencoba masker wajah alami dengan campuran madu dan yogurt untuk melembapkan kulit, atau masker oatmeal dan madu untuk eksfoliasi ringan. Gunakan bahan-bahan alami yang cocok dengan jenis kulit Anda.",
+                "Masker wajah alami yang populer termasuk masker alpukat dan madu, masker lemon dan gula, dan masker yogurt dan mentimun. Pastikan untuk melakukan tes pada kulit Anda terlebih dahulu untuk memastikan tidak ada reaksi alergi."
+            ]
+        },
+        {
+            "tag": "hindari_perawatan_kulit",
+            "patterns": [
+                "Apa yang perlu saya hindari dalam rutinitas perawatan kulit?",
+                "Kesalahan dalam perawatan kulit",
+                "Hal yang tidak boleh dilakukan dalam perawatan kulit",
+                "Penghindaran dalam perawatan kulit"
+            ],
+            "responses": [
+                "Hindari penggunaan produk perawatan kulit yang mengandung alkohol berlebihan, penggunaan scrub yang terlalu kasar, atau mencuci wajah dengan air panas berlebihan. Selalu jaga kulit Anda terhidrasi dan hindari tidur dengan makeup.",
+                "Selain itu, hindari mencubit jerawat dengan jari Anda karena dapat menyebabkan infeksi dan bekas luka. Juga, jangan terlalu sering mencuci wajah Anda karena dapat menghilangkan minyak alami kulit."
+            ]
+        },
+        {
+            "tag": "perawatan_setelah_terpapar_sinarmatahari",
+            "patterns": [
+                "Bagaimana cara merawat kulit setelah terpapar sinar matahari sepanjang hari?",
+                "Perawatan kulit setelah berjemur",
+                "Sarankan produk perawatan setelah terkena sinar matahari",
+                "Perawatan kulit pasca-berjemur"
+            ],
+            "responses": [
+                "Setelah terpapar sinar matahari, penting untuk segera mandi dan menggunakan pelembap yang mengandung aloe vera atau lidah buaya untuk menenangkan kulit. Hindari paparan sinar matahari lebih lanjut dan minum cukup air untuk menjaga hidrasi kulit Anda.",
+                "Produk perawatan kulit pasca-berjemur yang mengandung bahan seperti lidah buaya, ekstrak teh hijau, atau vitamin E dapat membantu meredakan kulit yang terbakar sinar matahari dan menghidrasinya."
+            ]
+        },
+        {
+            "tag": "manfaat_pemijatan_wajah",
+            "patterns": [
+                "Apakah pemijatan wajah memiliki manfaat kesehatan kulit?",
+                "Efek positif pemijatan wajah",
+                "Sarankan teknik pemijatan wajah",
+                "Pentingnya pemijatan wajah"
+            ],
+            "responses": [
+                "Pemijatan wajah secara teratur dapat meningkatkan sirkulasi darah, merelaksasi otot wajah, dan meningkatkan penyerapan produk perawatan kulit. Ini dapat membantu kulit terlihat lebih segar dan bersinar.",
+                "Beberapa manfaat pemijatan wajah termasuk peningkatan kelembaban kulit, pengurangan kemerahan, dan pengurangan kerutan wajah. Teknik pemijatan yang populer termasuk pemijatan Gua Sha dan pemijatan menggunakan roller wajah."
+            ]
+        },
+        {
+            "tag": "produk_dengan_SPF",
+            "patterns": [
+                "Sarankan produk perawatan wajah yang mengandung SPF untuk perlindungan harian.",
+                "Produk dengan SPF terbaik",
+                "Pelembap dengan SPF yang bagus",
+                "Tabir surya wajah yang efektif"
+            ],
+            "responses": [
+                "Beberapa produk perawatan wajah yang mengandung SPF yang bagus termasuk pelembap harian yang sudah dilengkapi dengan SPF, dan tabir surya wajah. Pastikan SPF yang Anda pilih memiliki SPF minimal 30 dan sesuai dengan jenis kulit Anda.",
+                "Selain itu, Anda dapat mencari produk perawatan yang mengandung mineral SPF seperti zinc oxide atau titanium dioxide, yang cocok untuk kulit sensitif."
+            ]
+        },
+        {
+            "tag": "mengurangi_kemerahan",
+            "patterns": [
+                "Apa yang bisa saya lakukan untuk mengurangi kemerahan pada kulit?",
+                "Cara mengatasi kulit yang merah",
+                "Tips meredakan kemerahan kulit",
+                "Sarankan produk untuk kulit yang merah"
+            ],
+            "responses": [
+                "Anda bisa mencoba menggunakan krim atau gel yang mengandung aloe vera atau ekstrak khamomil untuk meredakan kemerahan pada kulit. Selain itu, hindari penggunaan produk yang mengandung bahan iritan dan hindari paparan sinar matahari berlebihan.",
+                "Produk perawatan kulit dengan bahan seperti niacinamide atau ekstrak lidah buaya juga dapat membantu mengurangi kemerahan dan meredakan iritasi kulit."
+            ]
+        },
+        {
+            "tag": "kulit_kusam_lelah",
+            "patterns": [
+                "Bagaimana cara mengatasi kulit kusam dan lelah?",
+                "Tips agar kulit tampak lebih segar",
+                "Sarankan produk perawatan untuk kulit kusam",
+                "Cara merawat kulit yang terlihat lelah"
+            ],
+            "responses": [
+                "Untuk mengatasi kulit kusam dan lelah, pertimbangkan untuk menggunakan produk perawatan yang mengandung vitamin C untuk mencerahkan kulit. Selain itu, pastikan Anda tidur cukup, minum air yang cukup, dan makan makanan sehat untuk menjaga kulit tetap segar.",
+                "Pijatan wajah juga dapat membantu meredakan ketegangan dan meningkatkan sirkulasi darah, yang dapat membantu kulit terlihat lebih segar."
+            ]
+        },
+        {
+            "tag": "perawatan_wajah_remaja",
+            "patterns": [
+                "Sarankan perawatan wajah yang cocok untuk remaja.",
+                "Perawatan kulit remaja yang efektif",
+                "Produk perawatan kulit remaja terbaik",
+                "Cara merawat kulit remaja"
+            ],
+            "responses": [
+                "Perawatan wajah untuk remaja sebaiknya ringan dan mencakup pembersihan dan pelembapan secara teratur. Gunakan produk perawatan kulit yang cocok untuk jenis kulit Anda, hindari produk berat, dan jangan lupa gunakan tabir surya saat beraktivitas di luar ruangan.",
+                "Saat remaja, penting untuk menjaga kulit tetap bersih dan hindari merokok serta konsumsi alkohol. Selalu gunakan produk perawatan yang lembut dan sesuai dengan kebutuhan kulit Anda."
+            ]
+        },
+        {
+            "tag": "menghilangkan_komedo",
+            "patterns": [
+                "Apa yang bisa saya lakukan untuk menghilangkan komedo di hidung?",
+                "Cara mengatasi komedo",
+                "Produk untuk menghilangkan komedo",
+                "Tips menghilangkan komedo"
+            ],
+            "responses": [
+                "Untuk menghilangkan komedo di hidung, Anda bisa mencoba mengoleskan masker hidung yang mengandung asam salisilat atau menggunakan pembersih yang mengandung asam glikolat. Selain itu, menjaga kebersihan wajah dan rutin eksfoliasi bisa membantu mengurangi komedo.",
+                "Penting untuk tidak mencubit atau memencet komedo, karena itu dapat menyebabkan peradangan dan bekas luka. Jika komedo sangat mengganggu, konsultasikan dengan dokter kulit untuk perawatan lebih lanjut."
+            ]
+        },
+        {
+            "tag": "perawatan_laser",
+            "patterns": [
+                "Apakah perawatan laser aman untuk mengatasi masalah kulit?",
+                "Efek samping perawatan laser",
+                "Sarankan klinik perawatan laser yang terpercaya",
+                "Keamanan perawatan laser"
+            ],
+            "responses": [
+                "Perawatan laser dapat aman dan efektif untuk mengatasi berbagai masalah kulit seperti bekas luka, kerutan, dan noda kulit. Namun, penting untuk menjalani perawatan dengan profesional yang berpengalaman dan memiliki peralatan yang sesuai. Selalu konsultasikan dengan dokter kulit sebelum menjalani perawatan laser.",
+                "Efek samping perawatan laser bisa termasuk kemerahan sementara, pembengkakan, atau kulit yang terasa panas. Ini adalah reaksi normal dan akan mereda dalam beberapa hari setelah perawatan."
+            ]
+        }
+    ]
+}
