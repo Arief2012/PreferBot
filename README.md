@@ -23,3 +23,5 @@ Pastikan memiliki Python dan pip terinstal. Selanjutnya, ikuti langkah ini ya :
 6. run proyek:
    
    python app.py
+
+   model.h2 terdapat pada drive.txt

@@ -67,21 +67,17 @@
         {
             "tag": "goodbye",
             "patterns": [
-                "Dah",
-                "Dadah",
                 "Bye",
                 "Byee",
                 "Good bye",
                 "Selamat tinggal",
                 "Sampai jumpa",
-                "Bai",
                 "See you"
             ],
             "responses": [
                 "Bye!",
-                "Dadahh!",
                 "Good bye!",
-                "Dahh, semoga harimu menyenangkan yaa!",
+                "bye, semoga harimu menyenangkan yaa!",
                 "Sampai jumpa lagi!",
                 "See u! Senang bisa membantu"
             ]
@@ -89,9 +85,9 @@
         {
             "tag": "noda_hitam",
             "patterns": [
-                "Bagaimana cara menghilangkan noda hitam di bawah mata?",
-                "Cara menghilangkan noda hitam di sekitar mata?",
-                "Solusi untuk noda hitam di bawah mata?"
+                "noda hitam di bawah mata?",
+                "menghilangkan noda hitam di sekitar mata?",
+                "Solusi noda hitam di bawah mata?"
             ],
             "responses": [
                 "Untuk menghilangkan noda hitam di bawah mata, Anda bisa mencoba menggunakan krim mata yang mengandung retinol atau vitamin C.",
@@ -102,7 +98,7 @@
         {
             "tag": "kulit_berminyak",
             "patterns": [
-                "Apa yang bisa saya lakukan untuk mengurangi kulit berminyak?",
+                "mengurangi kulit berminyak?",
                 "Cara mengatasi kulit berminyak",
                 "Tips untuk mengontrol minyak pada wajah"
             ],
@@ -132,7 +128,7 @@
             ],
             "responses": [
                 "Untuk meminimalkan kerutan di dahi, Anda bisa menggunakan krim anti-penuaan yang mengandung retinol atau asam hialuronat. Juga, pastikan Anda menjaga kulit terhidrasi dengan baik dan hindari paparan sinar matahari berlebih.",
-                "Selain itu, perawatan kulit yang melibatkan teknik pijat wajah, mengonsumsi banyak air, dan menghindari merokok dapat membantu mengurangi kerutan di dahi."
+                "Mengurangi kerutan wajah dapat dengan perawatan kulit yang melibatkan teknik pijat wajah, mengonsumsi banyak air, dan menghindari merokok dapat membantu mengurangi kerutan di dahi."
             ]
         },
         {

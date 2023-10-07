@@ -22,7 +22,7 @@ PRE_TRAINED_MODEL = 'indobenchmark/indobert-base-p2'
 bert_tokenizer = BertTokenizer.from_pretrained(PRE_TRAINED_MODEL)
 
 # Load hasil fine-tuning
-bert_load_model = TFBertForSequenceClassification.from_pretrained(PRE_TRAINED_MODEL, num_labels=27)
+bert_load_model = TFBertForSequenceClassification.from_pretrained(PRE_TRAINED_MODEL, num_labels=24)
 
 # Load Model
 bert_load_model.load_weights('bert-model.h5')
