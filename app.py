@@ -15,6 +15,12 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
+@app.route('/prediksi')
+def prediksi():
+    return render_template('prediksi.html')
+
+
+
 # Pretrained Model
 PRE_TRAINED_MODEL = 'indobenchmark/indobert-base-p2'
 
