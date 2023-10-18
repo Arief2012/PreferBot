@@ -85,62 +85,64 @@
         {
             "tag": "noda_hitam",
             "patterns": [
-                "noda hitam di bawah mata?",
+                "mata panda",
                 "menghilangkan noda hitam di sekitar mata?",
-                "Solusi noda hitam di bawah mata?"
+                "Solusi mata panda di bawah mata?",
+                "noda pada mata",
+                "solusi mata panda"
             ],
             "responses": [
-                "Untuk menghilangkan noda hitam di bawah mata, Anda bisa mencoba menggunakan krim mata yang mengandung retinol atau vitamin C.",
-                "Perawatan laser juga bisa menjadi pilihan untuk menghilangkan noda hitam di bawah mata. Namun, sebaiknya konsultasikan dengan dokter kulit terlebih dahulu.",
-                "Selain produk perawatan, Anda juga bisa mengurangi noda hitam dengan tidur yang cukup, menerapkan masker madu alami, atau menghindari eksposur berlebihan terhadap matahari."
+                "Mata panda dapat disebabkan oleh kurang tidur, stres, faktor genetik, dan peradangan. Selain tidur yang cukup dan krim mata, menjaga pola makan sehat, hidrasi, menghindari rokok dan alkohol, serta merawat tubuh dan wajah secara menyeluruh juga dapat membantu mengurangi tampilan mata panda. Jika perlu, berkonsultasilah dengan seorang ahli dermatologi.",
+                "Mata panda adalah istilah untuk menggambarkan lingkaran gelap di bawah mata. Faktor penyebabnya meliputi kurang tidur, faktor genetik, peradangan, dan paparan sinar matahari. Perawatan termasuk tidur yang cukup, penggunaan krim mata yang mengandung bahan seperti retinol atau peptida, dan perawatan kulit untuk mengurangi tampilan mata panda."
             ]
         },
         {
             "tag": "kulit_berminyak",
             "patterns": [
                 "mengurangi kulit berminyak?",
-                "Cara mengatasi kulit berminyak",
-                "Tips untuk mengontrol minyak pada wajah"
+                "mengatasi kulit berminyak",
+                "mengontrol minyak pada wajah"
             ],
             "responses": [
                 "Untuk mengurangi kulit berminyak, Anda bisa mencuci wajah dua kali sehari dengan pembersih yang cocok untuk kulit berminyak. Gunakan produk tanpa minyak dan perhatikan pola makan Anda dengan menghindari makanan berlemak berlebihan.",
-                "cara mengatasi kulit berminyak dengan menggunakan toner yang mengandung asam salisilat, masker lumpur secara teratur, dan menjaga kebersihan kulit sangat penting dalam mengontrol minyak pada wajah."
+                "Cara untuk mengatasi kulit berminyak dengan menggunakan toner yang mengandung asam salisilat, masker lumpur secara teratur, dan menjaga kebersihan kulit sangat penting dalam mengontrol minyak pada wajah."
             ]
         },
         {
             "tag": "perawatan_musim_dingin",
             "patterns": [
-                "cara merawat kulit selama musim dingin?",
-                "Tips saat cuaca dingin",
+                "selama musim dingin?",
+                "cuaca dingin",
                 "tetap sehat saat musim dingin"
             ],
             "responses": [
                 "Saat musim dingin, penting untuk menjaga kelembaban kulit dengan menggunakan pelembap yang kaya dan menghindari mandi dengan air panas terlalu sering. Gunakan tabir surya bahkan saat cuaca dingin untuk melindungi kulit dari sinar UV yang merusak.",
-                "Anda juga bisa mempertimbangkan untuk menggunakan minyak wajah, meminimalkan penggunaan produk beralkohol, dan mengonsumsi makanan yang kaya akan vitamin C untuk merawat kulit selama musim dingin."
+                "Pada saat musim dingin Anda dapat menggunakan minyak wajah, meminimalkan penggunaan produk beralkohol, dan mengonsumsi makanan yang kaya akan vitamin C untuk merawat kulit selama musim dingin."
             ]
         },
         {
-            "tag": "kerutan_dahi",
+            "tag": "kerutan",
             "patterns": [
                 "untuk meminimalkan kerutan di dahi",
-                "Cara mengurangi kerutan di dahi",
-                "Pencegahan kerutan di wajah"
+                "Cara mengurangi kerutan",
+                "Pencegahan kerutan di wajah",
+                "kerutan dahi"
             ],
             "responses": [
-                "Untuk meminimalkan kerutan di dahi, Anda bisa menggunakan krim anti-penuaan yang mengandung retinol atau asam hialuronat. Juga, pastikan Anda menjaga kulit terhidrasi dengan baik dan hindari paparan sinar matahari berlebih.",
-                "Mengurangi kerutan wajah dapat dengan perawatan kulit yang melibatkan teknik pijat wajah, mengonsumsi banyak air, dan menghindari merokok dapat membantu mengurangi kerutan di dahi."
+                "Untuk meminimalkan kerutan, Anda bisa menggunakan krim anti-penuaan yang mengandung retinol atau asam hialuronat. Juga, pastikan Anda menjaga kulit terhidrasi dengan baik dan hindari paparan sinar matahari berlebih.",
+                "Kerutan adalah tanda penuaan kulit dan dapat disebabkan oleh banyak faktor, termasuk paparan sinar matahari, hilangnya kolagen, dan ekspresi wajah berulang. Untuk mengurangi kerutan, gunakan produk perawatan yang mengandung retinol atau peptida. Hindari paparan sinar matahari berlebihan dengan menggunakan tabir surya setiap hari."
             ]
         },
         {
             "tag": "pencarian_pori_kecil",
             "patterns": [
-                "Sarankan produk perawatan yang dapat mengurangi pori-pori besar.",
+                "mengurangi pori-pori besar.",
                 "membuat pori-pori wajah lebih kecil?",
                 "Produk untuk pori-pori besar"
             ],
             "responses": [
                 "Untuk mengurangi pori-pori besar, Anda dapat mencari produk perawatan yang mengandung asam salisilat atau niacinamide. Produk ini dapat membantu menyempitkan pori-pori dan menjaga kulit tampak lebih halus.",
-                "Selain itu, perawatan rutin seperti eksfoliasi dengan lembut dan membersihkan wajah secara teratur juga dapat membantu mengurangi masalah pori-pori besar."
+                "Mengurangi pori-pori wajah dapat dengan perawatan rutin seperti eksfoliasi dengan lembut dan membersihkan wajah secara teratur juga dapat membantu mengurangi masalah pori-pori besar."
             ]
         },
         {
@@ -148,11 +150,12 @@
             "patterns": [
                 "untuk menghilangkan bekas luka di wajah?",
                 "merawat bekas luka kulit",
-                "untuk menghilangkan bekas luka"
+                "untuk menghilangkan bekas luka",
+                "Bekas luka"
             ],
             "responses": [
                 "Untuk menghilangkan bekas luka di wajah, Anda bisa menggunakan produk perawatan yang mengandung bahan seperti retinol, vitamin C, atau asam hialuronat. Produk ini dapat membantu memudarkan bekas luka dan merangsang pertumbuhan sel kulit baru.",
-                "Perawatan laser dan mikrodermabrasi juga dapat menjadi pilihan jika bekas luka cukup menonjol. Sebaiknya berkonsultasi dengan dokter kulit untuk perawatan yang sesuai."
+                "Untuk menghilangkan bekas luka di wajah, Anda dapat menggunakan produk perawatan kulit yang mengandung bahan-bahan  retinol, vitamin C, asam hialuronat, atau niacinamide dan selalu melindungi kulit dari sinar matahari dengan tabir surya."
             ]
         },
         {
@@ -164,31 +167,20 @@
             ],
             "responses": [
                 "Untuk menjaga kulit tetap cerah dan bersinar, penting untuk menjaga kelembaban kulit dengan menggunakan pelembap secara teratur. Selain itu, gunakan produk perawatan yang mengandung vitamin C untuk merangsang produksi kolagen dan mencerahkan kulit.",
-                "Hindari paparan sinar matahari berlebihan, dan gunakan tabir surya setiap hari untuk melindungi kulit dari kerusakan akibat sinar UV."
+                "Produk perawatan untuk kulit yang bersinar biasanya mencakup serum atau krim yang mengandung bahan-bahan seperti vitamin C, asam hialuronat, dan pelembap yang dapat memberikan kelembapan dan kilau alami pada kulit."
             ]
         },
         {
-            "tag": "kulit_berjerawat_kehamilan",
+            "tag": "kulit_berjerawat",
             "patterns": [
-                "perawatan khusus untuk kulit berjerawat selama kehamilan?",
-                "mengatasi jerawat saat hamil",
-                "perawatan kulit berjerawat untuk ibu hamil"
+                "perawatan khusus untuk kulit berjerawat?",
+                "mengatasi jerawat",
+                "perawatan kulit berjerawat",
+                "jerawat"
             ],
             "responses": [
-                "Selama kehamilan, penting untuk menggunakan produk perawatan kulit yang aman untuk ibu hamil. Anda bisa mencari produk yang mengandung asam salisilat atau asam glikolat yang biasanya aman digunakan.",
-                "Selalu konsultasikan dengan dokter Anda sebelum memulai perawatan kulit baru saat hamil untuk memastikan keamanan bagi Anda dan bayi Anda."
-            ]
-        },
-        {
-            "tag": "perawatan_mata_kantung",
-            "patterns": [
-                "perawatan mata yang efektif untuk menghilangkan kantung mata?",
-                "Cara mengatasi kantung mata",
-                "Sarankan perawatan mata yang bagus"
-            ],
-            "responses": [
-                "Untuk menghilangkan kantung mata, Anda bisa mencari produk perawatan mata yang mengandung bahan seperti peptida dan vitamin K. Produk ini dapat membantu mengurangi pembengkakan dan memperbaiki elastisitas kulit di sekitar mata.",
-                "Menghindari kurang tidur dan konsumsi cukup air untuk menjaga mata tetap segar. Dan juga gunakan pendinginan mata seperti kompres dingin atau masker mata."
+                "Jerawat umumnya disebabkan oleh penyumbatan folikel rambut oleh sebum dan sel kulit mati, yang menyebabkan peradangan. Perawatan jerawat dapat melibatkan pembersihan kulit, penggunaan produk anti-jerawat yang mengandung bahan seperti benzoyl peroxide atau asam salisilat, dan menjaga kebersihan wajah. Jika jerawat parah atau berulang, sebaiknya berkonsultasi dengan dokter kulit, karena mereka dapat meresepkan perawatan yang lebih kuat.",
+                "Perawatan kulit berjerawat melibatkan pembersihan lembut, penggunaan produk yang mengandung asam salisilat atau benzoyl peroxide, menjaga kelembapan kulit, dan hindari memencet jerawat. Selain itu, jaga pola makan sehat, hindari sentuhan wajah yang tidak perlu, dan gunakan tabir surya setiap hari. Konsultasikan dengan dokter kulit jika jerawat parah atau tidak membaik dengan perawatan biasa. Perawatan berjerawat memerlukan konsistensi dan kesabaran."
             ]
         },
         {
@@ -202,19 +194,6 @@
             "responses": [
                 "Anda bisa mencoba masker wajah alami dengan campuran madu dan yogurt untuk melembapkan kulit, atau masker oatmeal dan madu untuk eksfoliasi ringan. Gunakan bahan-bahan alami yang cocok dengan jenis kulit Anda.",
                 "Masker wajah alami yang populer termasuk masker alpukat dan madu, masker lemon dan gula, dan masker yogurt dan mentimun. Pastikan untuk melakukan tes pada kulit Anda terlebih dahulu untuk memastikan tidak ada reaksi alergi."
-            ]
-        },
-        {
-            "tag": "hindari_perawatan_kulit",
-            "patterns": [
-                "Apa yang perlu saya hindari dalam rutinitas perawatan kulit?",
-                "Kesalahan dalam perawatan kulit",
-                "Hal yang tidak boleh dilakukan dalam perawatan kulit",
-                "Penghindaran dalam perawatan kulit"
-            ],
-            "responses": [
-                "Hindari penggunaan produk perawatan kulit yang mengandung alkohol berlebihan, penggunaan scrub yang terlalu kasar, atau mencuci wajah dengan air panas berlebihan. Selalu jaga kulit Anda terhidrasi dan hindari tidur dengan makeup.",
-                "Usahakan untuk mencubit jerawat dengan jari Anda karena dapat menyebabkan infeksi dan bekas luka. Juga, jangan terlalu sering mencuci wajah Anda karena dapat menghilangkan minyak alami kulit."
             ]
         },
         {
@@ -244,19 +223,6 @@
             ]
         },
         {
-            "tag": "produk_dengan_SPF",
-            "patterns": [
-                "perawatan wajah yang mengandung SPF untuk perlindungan harian.",
-                "Produk dengan SPF terbaik",
-                "Pelembap dengan SPF yang bagus",
-                "Tabir surya wajah yang efektif"
-            ],
-            "responses": [
-                "Beberapa produk perawatan wajah yang mengandung SPF yang bagus termasuk pelembap harian yang sudah dilengkapi dengan SPF, dan tabir surya wajah. Pastikan SPF yang Anda pilih memiliki SPF minimal 30 dan sesuai dengan jenis kulit Anda.",
-                "Anda dapat mencari produk perawatan yang mengandung mineral SPF seperti zinc oxide atau titanium dioxide, yang cocok untuk kulit sensitif."
-            ]
-        },
-        {
             "tag": "mengurangi_kemerahan",
             "patterns": [
                 "Apa yang bisa saya lakukan untuk mengurangi kemerahan pada kulit?",
@@ -277,11 +243,11 @@
                 "Bagaimana mengatasi kulit kusam dan lelah?",
                 "Tips agar kulit tampak lebih segar",
                 "Sarankan produk perawatan untuk kulit kusam",
-                "Cara merawat kulit yang terlihat lelah"
+                "kulit yang terlihat lelah"
             ],
             "responses": [
-                "Untuk mengatasi kulit kusam dan lelah, pertimbangkan untuk menggunakan produk perawatan yang mengandung vitamin C untuk mencerahkan kulit. Selain itu, pastikan Anda tidur cukup, minum air yang cukup, dan makan makanan sehat untuk menjaga kulit tetap segar.",
-                "Pijatan wajah juga dapat membantu meredakan ketegangan dan meningkatkan sirkulasi darah, yang dapat membantu kulit terlihat lebih segar."
+                "Kulit yang kusam sering kali dapat diperbaiki dengan perubahan gaya hidup yang sehat. Pertama, pastikan Anda cukup tidur, karena kurang tidur dapat membuat kulit terlihat kusam. Selain itu, perhatikan pola makan Anda. Makanan yang kaya akan antioksidan, seperti buah-buahan dan sayuran, dapat membantu meningkatkan kecerahan kulit.",
+                "Untuk mengembalikan kilau kulit yang kusam, perhatikan pola makan yang sehat, tidur yang cukup, dan gunakan produk perawatan kulit yang mengandung antioksidan dan vitamin C."
             ]
         },
         {
@@ -305,11 +271,12 @@
                 "Apa yang bisa saya lakukan untuk menghilangkan komedo di hidung?",
                 "Cara mengatasi komedo",
                 "Produk untuk menghilangkan komedo",
-                "Tips menghilangkan komedo"
+                "menghilangkan komedo",
+                "komedo"
             ],
             "responses": [
-                "Untuk menghilangkan komedo di hidung, Anda bisa mencoba mengoleskan masker hidung yang mengandung asam salisilat atau menggunakan pembersih yang mengandung asam glikolat. Selain itu, menjaga kebersihan wajah dan rutin eksfoliasi bisa membantu mengurangi komedo.",
-                "Penting untuk tidak mencubit atau memencet komedo, karena itu dapat menyebabkan peradangan dan bekas luka. Jika komedo sangat mengganggu, konsultasikan dengan dokter kulit untuk perawatan lebih lanjut."
+                "Penyebab utama komedo adalah penumpukan sebum dan sel kulit mati di pori-pori kulit. Langkah-langkah untuk mengatasi komedo termasuk membersihkan wajah secara teratur, menggunakan produk non-komedogenik, dan eksfoliasi lembut.",
+                "Penyebab utama komedo adalah penumpukan sebum (minyak) dan sel-sel kulit mati di pori-pori kulit. Untuk mengatasi komedo, pertama-tama penting untuk membersihkan wajah secara teratur dengan pembersih yang sesuai dengan jenis kulit Anda. Penggunaan produk perawatan yang mengandung bahan anti-minyak dan non-komedogenik juga dapat membantu mengurangi risiko terbentuknya komedo. Selain itu, eksfoliasi lembut dengan menggunakan scrub wajah atau produk yang mengandung asam salisilat dapat membantu membersihkan pori-pori dan mengurangi komedo."
             ]
         },
         {
@@ -324,6 +291,58 @@
             "responses": [
                 "Perawatan laser dapat aman dan efektif untuk mengatasi berbagai masalah kulit seperti bekas luka, kerutan, dan noda kulit. Namun, penting untuk menjalani perawatan dengan profesional yang berpengalaman dan memiliki peralatan yang sesuai. Selalu konsultasikan dengan dokter kulit sebelum menjalani perawatan laser.",
                 "Efek samping perawatan laser bisa termasuk kemerahan sementara, pembengkakan, atau kulit yang terasa panas. Ini adalah reaksi normal dan akan mereda dalam beberapa hari setelah perawatan."
+            ]
+        },
+        {
+            "tag": "Dark_spot",
+            "patterns": [
+                "mencegah dark spot",
+                "bagaimana mengatasi dark spot",
+                "dark spot",
+                "mengatasi dark spot"
+            ],
+            "responses": [
+                "Mencegah dark spot pada wajah dapat dilakukan dengan cara penggunaan tabir surya, perlindungan dari sinar matahari, perawatan kulit yang tepat, menghindari merokok, dan pemilihan produk perawatan yang sesuai.",
+                "Bekas jerawat atau dark spot adalah hiperpigmentasi yang dapat tetap ada setelah jerawat sembuh. Untuk menghilangkan bekas jerawat, gunakan produk perawatan yang mengandung bahan pemudar bercak hitam, seperti asam kojik atau hidrokuinon. Perlu dicatat bahwa waktu yang dibutuhkan untuk menghilangkan bekas jerawat bisa bervariasi tergantung pada tingkat keparahan dan jenis bekas jerawat."
+            ]
+        },
+        {
+            "tag": "beruntusan",
+            "patterns": [
+                "mencegah beruntusan",
+                "bagaimana mengatasi beruntusan",
+                "beruntusan",
+                "beruntus",
+                "apa itu beruntusan"
+            ],
+            "responses": [
+                "Beruntusan adalah kondisi yang muncul sebagai benjolan kecil yang berisi sebum di bawah kulit. Beruntusan biasanya lebih kecil dan lebih keras daripada jerawat. Untuk mengatasi beruntusan, gunakan produk perawatan yang mengandung asam salisilat atau asam glikolat, yang membantu mengelupas lapisan atas kulit dan membuka pori-pori."
+            ]
+        },
+        {
+            "tag": "milia",
+            "patterns": [
+                "apa milia",
+                "bagaimana mengatasi milia",
+                "milia",
+                "milia pada wajah",
+                "yang dimaksud milia"
+            ],
+            "responses": [
+                "Milia adalah benjolan kecil yang terbentuk di bawah kulit dan biasanya tidak terkait dengan sebum atau sel kulit mati. Mereka seringkali memerlukan perawatan oleh dokter kulit yang dapat melakukan pengangkatan yang aman menggunakan teknik medis."
+            ]
+        },
+        {
+            "tag": "flex_hitam",
+            "patterns": [
+                "apa flex",
+                "bagaimana mengatasi flex hitam pada wajah",
+                "flex hitam",
+                "flex pada wajah",
+                "yang dimaksud flex hitam"
+            ],
+            "responses": [
+                " Flek hitam seringkali disebabkan oleh paparan sinar matahari dan melibatkan peningkatan melanin di kulit. Untuk mengurangi penampilan flek hitam, penting untuk menggunakan tabir surya dengan SPF tinggi setiap hari dan produk perawatan kulit yang mengandung bahan pemudar bercak hitam seperti asam kojik atau vitamin C."
             ]
         }
     ]
