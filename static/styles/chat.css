@@ -3,8 +3,8 @@
 =============== */
 .chatbox {
     position: fixed;
-    bottom: 30px;
-    right: 30px;
+    bottom: 3%;
+    right: 3%;
 }
 
 /* CONTENT IS CLOSE */
@@ -120,7 +120,7 @@
     border: none;
     border-radius: 3px;
     font-size: 1em;
-  }
+}
 
 .chatbox__footer input {
     flex: 1;
@@ -136,6 +136,7 @@
     font-weight: bold;
     background: #ddd;
     cursor: pointer;
+    transition: background 0.3s;
 }
 
 .chatbox__send--footer:hover{
