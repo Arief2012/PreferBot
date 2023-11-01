@@ -1,4 +1,4 @@
-{
+{labels
     "intents": [
         {
             "tag": "greeting",
@@ -176,7 +176,7 @@
                 "perawatan khusus untuk wajah berjerawat?",
                 "mengatasi jerawat",
                 "perawatan wajah berjerawat",
-                "jerawat"
+                "jerawatan"
             ],
             "responses": [
                 "Jerawat umumnya disebabkan oleh penyumbatan folikel rambut oleh sebum dan sel kulit mati, yang menyebabkan peradangan. Perawatan jerawat dapat melibatkan pembersihan wajah, penggunaan produk anti-jerawat yang mengandung bahan seperti benzoyl peroxide atau asam salisilat, dan menjaga kebersihan wajah. Jika jerawat parah atau berulang, sebaiknya berkonsultasi dengan dokter kulit, karena mereka dapat meresepkan perawatan yang lebih kuat.",
@@ -206,7 +206,7 @@
             ],
             "responses": [
                 "Setelah terpapar sinar matahari, penting untuk segera mandi dan menggunakan pelembap yang mengandung aloe vera atau lidah buaya untuk menenangkan wajah. Hindari paparan sinar matahari lebih lanjut dan minum cukup air untuk menjaga hidrasi wajah Anda.",
-                "Produk perawatan wajah pasca-berjemur yang mengandung bahan seperti lidah buaya, ekstrak teh hijau, atau vitamin E dapat membantu meredakan wajah yang terbakar sinar matahari dan menghidrasinya."
+                "Wajah pasca-berjemur atau terkena sinar mataharti yaitu sebaiknya melakukan perawatan wajah dengan menggunakan produk yang mengandung bahan seperti lidah buaya, ekstrak teh hijau, atau vitamin E dapat membantu meredakan wajah yang terbakar sinar matahari dan menghidrasinya."
             ]
         },
         {
