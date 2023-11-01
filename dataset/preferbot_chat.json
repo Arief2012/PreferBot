@@ -83,7 +83,7 @@
             ]
         },
         {
-            "tag": "noda_hitam",
+            "tag": "mata_panda",
             "patterns": [
                 "mata panda",
                 "menghilangkan noda hitam di sekitar mata?",
@@ -93,19 +93,19 @@
             ],
             "responses": [
                 "Mata panda dapat disebabkan oleh kurang tidur, stres, faktor genetik, dan peradangan. Selain tidur yang cukup dan krim mata, menjaga pola makan sehat, hidrasi, menghindari rokok dan alkohol, serta merawat tubuh dan wajah secara menyeluruh juga dapat membantu mengurangi tampilan mata panda. Jika perlu, berkonsultasilah dengan seorang ahli dermatologi.",
-                "Mata panda adalah istilah untuk menggambarkan lingkaran gelap di bawah mata. Faktor penyebabnya meliputi kurang tidur, faktor genetik, peradangan, dan paparan sinar matahari. Perawatan termasuk tidur yang cukup, penggunaan krim mata yang mengandung bahan seperti retinol atau peptida, dan perawatan kulit untuk mengurangi tampilan mata panda."
+                "Mata panda adalah istilah untuk menggambarkan lingkaran gelap di bawah mata. Faktor penyebabnya meliputi kurang tidur, faktor genetik, peradangan, dan paparan sinar matahari. Perawatan termasuk tidur yang cukup, penggunaan krim mata yang mengandung bahan seperti retinol atau peptida, dan perawatan wajah untuk mengurangi tampilan mata panda."
             ]
         },
         {
-            "tag": "kulit_berminyak",
+            "tag": "wajah_berminyak",
             "patterns": [
-                "mengurangi kulit berminyak?",
-                "mengatasi kulit berminyak",
+                "mengurangi wajah berminyak?",
+                "mengatasi wajah berminyak",
                 "mengontrol minyak pada wajah"
             ],
             "responses": [
-                "Untuk mengurangi kulit berminyak, Anda bisa mencuci wajah dua kali sehari dengan pembersih yang cocok untuk kulit berminyak. Gunakan produk tanpa minyak dan perhatikan pola makan Anda dengan menghindari makanan berlemak berlebihan.",
-                "Cara untuk mengatasi kulit berminyak dengan menggunakan toner yang mengandung asam salisilat, masker lumpur secara teratur, dan menjaga kebersihan kulit sangat penting dalam mengontrol minyak pada wajah."
+                "Untuk mengurangi wajah berminyak, Anda bisa mencuci wajah dua kali sehari dengan pembersih yang cocok untuk kulit berminyak. Gunakan produk tanpa minyak dan perhatikan pola makan Anda dengan menghindari makanan berlemak berlebihan.",
+                "Cara untuk mengatasi wajah berminyak dengan menggunakan toner yang mengandung asam salisilat, masker lumpur secara teratur, dan menjaga kebersihan wajah sangat penting dalam mengontrol minyak pada wajah."
             ]
         },
         {
@@ -116,8 +116,8 @@
                 "tetap sehat saat musim dingin"
             ],
             "responses": [
-                "Saat musim dingin, penting untuk menjaga kelembaban kulit dengan menggunakan pelembap yang kaya dan menghindari mandi dengan air panas terlalu sering. Gunakan tabir surya bahkan saat cuaca dingin untuk melindungi kulit dari sinar UV yang merusak.",
-                "Pada saat musim dingin Anda dapat menggunakan minyak wajah, meminimalkan penggunaan produk beralkohol, dan mengonsumsi makanan yang kaya akan vitamin C untuk merawat kulit selama musim dingin."
+                "Saat musim dingin, penting untuk menjaga kelembaban kulit wajah dengan menggunakan pelembap yang kaya dan menghindari mandi dengan air panas terlalu sering. Gunakan tabir surya bahkan saat cuaca dingin untuk melindungi kulit wajah dari sinar UV yang merusak.",
+                "Pada saat musim dingin Anda dapat menggunakan minyak wajah, meminimalkan penggunaan produk beralkohol, dan mengonsumsi makanan yang kaya akan vitamin C untuk merawat kulit wajah selama musim dingin."
             ]
         },
         {
@@ -129,8 +129,8 @@
                 "kerutan dahi"
             ],
             "responses": [
-                "Untuk meminimalkan kerutan, Anda bisa menggunakan krim anti-penuaan yang mengandung retinol atau asam hialuronat. Juga, pastikan Anda menjaga kulit terhidrasi dengan baik dan hindari paparan sinar matahari berlebih.",
-                "Kerutan adalah tanda penuaan kulit dan dapat disebabkan oleh banyak faktor, termasuk paparan sinar matahari, hilangnya kolagen, dan ekspresi wajah berulang. Untuk mengurangi kerutan, gunakan produk perawatan yang mengandung retinol atau peptida. Hindari paparan sinar matahari berlebihan dengan menggunakan tabir surya setiap hari."
+                "Untuk meminimalkan kerutan, Anda bisa menggunakan krim anti-penuaan yang mengandung retinol atau asam hialuronat. Juga, pastikan Anda menjaga wajah terhidrasi dengan baik dan hindari paparan sinar matahari berlebih.",
+                "Kerutan adalah tanda penuaan wajah dan dapat disebabkan oleh banyak faktor, termasuk paparan sinar matahari, hilangnya kolagen, dan ekspresi wajah berulang. Untuk mengurangi kerutan, gunakan produk perawatan yang mengandung retinol atau peptida. Hindari paparan sinar matahari berlebihan dengan menggunakan tabir surya setiap hari."
             ]
         },
         {
@@ -141,7 +141,7 @@
                 "Produk untuk pori-pori besar"
             ],
             "responses": [
-                "Untuk mengurangi pori-pori besar, Anda dapat mencari produk perawatan yang mengandung asam salisilat atau niacinamide. Produk ini dapat membantu menyempitkan pori-pori dan menjaga kulit tampak lebih halus.",
+                "Untuk mengurangi pori-pori besar, Anda dapat mencari produk perawatan yang mengandung asam salisilat atau niacinamide. Produk ini dapat membantu menyempitkan pori-pori dan menjaga wajah tampak lebih halus.",
                 "Mengurangi pori-pori wajah dapat dengan perawatan rutin seperti eksfoliasi dengan lembut dan membersihkan wajah secara teratur juga dapat membantu mengurangi masalah pori-pori besar."
             ]
         },
@@ -154,33 +154,33 @@
                 "Bekas luka"
             ],
             "responses": [
-                "Untuk menghilangkan bekas luka di wajah, Anda bisa menggunakan produk perawatan yang mengandung bahan seperti retinol, vitamin C, atau asam hialuronat. Produk ini dapat membantu memudarkan bekas luka dan merangsang pertumbuhan sel kulit baru.",
-                "Untuk menghilangkan bekas luka di wajah, Anda dapat menggunakan produk perawatan kulit yang mengandung bahan-bahan  retinol, vitamin C, asam hialuronat, atau niacinamide dan selalu melindungi kulit dari sinar matahari dengan tabir surya."
+                "Untuk menghilangkan bekas luka di wajah, Anda bisa menggunakan produk perawatan yang mengandung bahan seperti retinol, vitamin C, atau asam hialuronat. Produk ini dapat membantu memudarkan bekas luka dan merangsang pertumbuhan sel wajah baru.",
+                "Untuk menghilangkan bekas luka di wajah, Anda dapat menggunakan produk perawatan wajah yang mengandung bahan-bahan  retinol, vitamin C, asam hialuronat, atau niacinamide dan selalu melindungi wajah dari sinar matahari dengan tabir surya."
             ]
         },
         {
-            "tag": "kulit_cerah_bersinar",
+            "tag": "tips_wajah_cerah_bersinar",
             "patterns": [
-                "menjaga kulit tetap cerah dan bersinar?",
-                "Tips agar kulit tampak lebih cerah",
-                "Produk perawatan untuk kulit yang bersinar"
+                "menjaga wajah tetap cerah dan bersinar?",
+                "Tips agar wajah tampak lebih cerah",
+                "Produk perawatan untuk wajah yang bersinar"
             ],
             "responses": [
-                "Untuk menjaga kulit tetap cerah dan bersinar, penting untuk menjaga kelembaban kulit dengan menggunakan pelembap secara teratur. Selain itu, gunakan produk perawatan yang mengandung vitamin C untuk merangsang produksi kolagen dan mencerahkan kulit.",
-                "Produk perawatan untuk kulit yang bersinar biasanya mencakup serum atau krim yang mengandung bahan-bahan seperti vitamin C, asam hialuronat, dan pelembap yang dapat memberikan kelembapan dan kilau alami pada kulit."
+                "Untuk menjaga wajah tetap cerah dan bersinar, penting untuk menjaga kelembaban kulit wajah dengan menggunakan pelembap secara teratur. Selain itu, gunakan produk perawatan yang mengandung vitamin C untuk merangsang produksi kolagen dan mencerahkan kulit wajah.",
+                "Produk perawatan untuk wajah yang bersinar biasanya mencakup serum atau krim yang mengandung bahan-bahan seperti vitamin C, asam hialuronat, dan pelembap yang dapat memberikan kelembapan dan kilau alami pada kulit wajah."
             ]
         },
         {
-            "tag": "kulit_berjerawat",
+            "tag": "wajah_berjerawat",
             "patterns": [
-                "perawatan khusus untuk kulit berjerawat?",
+                "perawatan khusus untuk wajah berjerawat?",
                 "mengatasi jerawat",
-                "perawatan kulit berjerawat",
+                "perawatan wajah berjerawat",
                 "jerawat"
             ],
             "responses": [
-                "Jerawat umumnya disebabkan oleh penyumbatan folikel rambut oleh sebum dan sel kulit mati, yang menyebabkan peradangan. Perawatan jerawat dapat melibatkan pembersihan kulit, penggunaan produk anti-jerawat yang mengandung bahan seperti benzoyl peroxide atau asam salisilat, dan menjaga kebersihan wajah. Jika jerawat parah atau berulang, sebaiknya berkonsultasi dengan dokter kulit, karena mereka dapat meresepkan perawatan yang lebih kuat.",
-                "Perawatan kulit berjerawat melibatkan pembersihan lembut, penggunaan produk yang mengandung asam salisilat atau benzoyl peroxide, menjaga kelembapan kulit, dan hindari memencet jerawat. Selain itu, jaga pola makan sehat, hindari sentuhan wajah yang tidak perlu, dan gunakan tabir surya setiap hari. Konsultasikan dengan dokter kulit jika jerawat parah atau tidak membaik dengan perawatan biasa. Perawatan berjerawat memerlukan konsistensi dan kesabaran."
+                "Jerawat umumnya disebabkan oleh penyumbatan folikel rambut oleh sebum dan sel kulit mati, yang menyebabkan peradangan. Perawatan jerawat dapat melibatkan pembersihan wajah, penggunaan produk anti-jerawat yang mengandung bahan seperti benzoyl peroxide atau asam salisilat, dan menjaga kebersihan wajah. Jika jerawat parah atau berulang, sebaiknya berkonsultasi dengan dokter kulit, karena mereka dapat meresepkan perawatan yang lebih kuat.",
+                "Perawatan wajah berjerawat melibatkan pembersihan lembut, penggunaan produk yang mengandung asam salisilat atau benzoyl peroxide, menjaga kelembapan wajah, dan hindari memencet jerawat. Selain itu, jaga pola makan sehat, hindari sentuhan wajah yang tidak perlu, dan gunakan tabir surya setiap hari. Konsultasikan dengan dokter kulit jika jerawat parah atau tidak membaik dengan perawatan biasa. Perawatan berjerawat memerlukan konsistensi dan kesabaran."
             ]
         },
         {
@@ -192,62 +192,62 @@
                 "Masker alami yang efektif"
             ],
             "responses": [
-                "Anda bisa mencoba masker wajah alami dengan campuran madu dan yogurt untuk melembapkan kulit, atau masker oatmeal dan madu untuk eksfoliasi ringan. Gunakan bahan-bahan alami yang cocok dengan jenis kulit Anda.",
-                "Masker wajah alami yang populer termasuk masker alpukat dan madu, masker lemon dan gula, dan masker yogurt dan mentimun. Pastikan untuk melakukan tes pada kulit Anda terlebih dahulu untuk memastikan tidak ada reaksi alergi."
+                "Anda bisa mencoba masker wajah alami dengan campuran madu dan yogurt untuk melembapkan wajah, atau masker oatmeal dan madu untuk eksfoliasi ringan. Gunakan bahan-bahan alami yang cocok dengan jenis wajah Anda.",
+                "Masker wajah alami yang populer termasuk masker alpukat dan madu, masker lemon dan gula, dan masker yogurt dan mentimun. Pastikan untuk melakukan tes pada wajah Anda terlebih dahulu untuk memastikan tidak ada reaksi alergi."
             ]
         },
         {
             "tag": "perawatan_setelah_terpapar_sinarmatahari",
             "patterns": [
                 "setelah terpapar sinar matahari sepanjang hari?",
-                "Perawatan kulit setelah berjemur",
+                "Perawatan wajah setelah berjemur",
                 "perawatan setelah terkena sinar matahari",
-                "Perawatan kulit pasca-berjemur"
+                "Perawatan wajah pasca-berjemur"
             ],
             "responses": [
-                "Setelah terpapar sinar matahari, penting untuk segera mandi dan menggunakan pelembap yang mengandung aloe vera atau lidah buaya untuk menenangkan kulit. Hindari paparan sinar matahari lebih lanjut dan minum cukup air untuk menjaga hidrasi kulit Anda.",
-                "Produk perawatan kulit pasca-berjemur yang mengandung bahan seperti lidah buaya, ekstrak teh hijau, atau vitamin E dapat membantu meredakan kulit yang terbakar sinar matahari dan menghidrasinya."
+                "Setelah terpapar sinar matahari, penting untuk segera mandi dan menggunakan pelembap yang mengandung aloe vera atau lidah buaya untuk menenangkan wajah. Hindari paparan sinar matahari lebih lanjut dan minum cukup air untuk menjaga hidrasi wajah Anda.",
+                "Produk perawatan wajah pasca-berjemur yang mengandung bahan seperti lidah buaya, ekstrak teh hijau, atau vitamin E dapat membantu meredakan wajah yang terbakar sinar matahari dan menghidrasinya."
             ]
         },
         {
             "tag": "manfaat_pemijatan_wajah",
             "patterns": [
-                "Apakah pemijatan wajah memiliki manfaat kesehatan kulit?",
+                "Apakah pemijatan wajah memiliki manfaat kesehatan wajah?",
                 "Efek positif pemijatan wajah",
                 "teknik pemijatan wajah",
                 "Pentingnya pemijatan wajah"
             ],
             "responses": [
-                "Pemijatan wajah secara teratur dapat meningkatkan sirkulasi darah, merelaksasi otot wajah, dan meningkatkan penyerapan produk perawatan kulit. Ini dapat membantu kulit terlihat lebih segar dan bersinar.",
-                "Beberapa manfaat pemijatan wajah termasuk peningkatan kelembaban kulit, pengurangan kemerahan, dan pengurangan kerutan wajah. Teknik pemijatan yang populer termasuk pemijatan Gua Sha dan pemijatan menggunakan roller wajah."
+                "Pemijatan wajah secara teratur dapat meningkatkan sirkulasi darah, merelaksasi otot wajah, dan meningkatkan penyerapan produk perawatan wajah. Hal ini dapat membantu wajah terlihat lebih segar dan bersinar.",
+                "Beberapa manfaat pemijatan wajah termasuk peningkatan kelembaban wajah, pengurangan kemerahan, dan pengurangan kerutan wajah. Teknik pemijatan yang populer termasuk pemijatan Gua Sha dan pemijatan menggunakan roller wajah."
             ]
         },
         {
             "tag": "mengurangi_kemerahan",
             "patterns": [
-                "Apa yang bisa saya lakukan untuk mengurangi kemerahan pada kulit?",
-                "mengatasi kulit yang merah",
-                "Tips meredakan kemerahan kulit",
-                "untuk kulit yang merah",
+                "Apa yang bisa saya lakukan untuk mengurangi kemerahan pada wajah?",
+                "mengatasi wajah yang merah",
+                "Tips meredakan kemerahan wajah",
+                "untuk wajah yang merah",
                 "mengurangi kemerahan"
             ],
             "responses": [
-                "Anda bisa mencoba menggunakan krim atau gel yang mengandung aloe vera atau ekstrak khamomil untuk meredakan kemerahan pada kulit. Selain itu, hindari penggunaan produk yang mengandung bahan iritan dan hindari paparan sinar matahari berlebihan.",
-                "Produk perawatan kulit dengan bahan seperti niacinamide atau ekstrak lidah buaya juga dapat membantu mengurangi kemerahan dan meredakan iritasi kulit."
+                "Anda bisa mencoba menggunakan krim atau gel yang mengandung aloe vera atau ekstrak khamomil untuk meredakan kemerahan pada wajah. Selain itu, hindari penggunaan produk yang mengandung bahan iritan dan hindari paparan sinar matahari berlebihan.",
+                "Produk perawatan wajah dengan bahan seperti niacinamide atau ekstrak lidah buaya juga dapat membantu mengurangi kemerahan dan meredakan iritasi wajah."
             ]
         },
         {
-            "tag": "kulit_kusam_lelah",
+            "tag": "wajah_kusam_lelah",
             "patterns": [
-                "kulit kusam lelah",
-                "Bagaimana mengatasi kulit kusam dan lelah?",
-                "Tips agar kulit tampak lebih segar",
-                "Sarankan produk perawatan untuk kulit kusam",
-                "kulit yang terlihat lelah"
+                "wajah kusam lelah",
+                "Bagaimana mengatasi wajah kusam dan lelah?",
+                "Tips agar wajah tampak lebih segar",
+                "Sarankan produk perawatan untuk wajah kusam",
+                "wajah yang terlihat lelah"
             ],
             "responses": [
-                "Kulit yang kusam sering kali dapat diperbaiki dengan perubahan gaya hidup yang sehat. Pertama, pastikan Anda cukup tidur, karena kurang tidur dapat membuat kulit terlihat kusam. Selain itu, perhatikan pola makan Anda. Makanan yang kaya akan antioksidan, seperti buah-buahan dan sayuran, dapat membantu meningkatkan kecerahan kulit.",
-                "Untuk mengembalikan kilau kulit yang kusam, perhatikan pola makan yang sehat, tidur yang cukup, dan gunakan produk perawatan kulit yang mengandung antioksidan dan vitamin C."
+                "wajah yang kusam sering kali dapat diperbaiki dengan perubahan gaya hidup yang sehat. Pertama, pastikan Anda cukup tidur, karena kurang tidur dapat membuat wajah terlihat kusam. Selain itu, perhatikan pola makan Anda. Makanan yang kaya akan antioksidan, seperti buah-buahan dan sayuran, dapat membantu meningkatkan kecerahan wajah.",
+                "Untuk mengembalikan kilau wajah yang kusam, perhatikan pola makan yang sehat, tidur yang cukup, dan gunakan produk perawatan kulit yang mengandung antioksidan dan vitamin C."
             ]
         },
         {
@@ -255,13 +255,13 @@
             "patterns": [
                 "remaja",
                 "Sarankan perawatan wajah yang cocok untuk remaja.",
-                "Perawatan kulit remaja yang efektif",
-                "Produk perawatan kulit remaja terbaik",
-                "Cara merawat kulit remaja"
+                "Perawatan kulit wajah remaja yang efektif",
+                "Produk perawatan kulit wajah remaja terbaik",
+                "Cara merawat kulit wajah remaja"
             ],
             "responses": [
-                "Perawatan wajah untuk remaja sebaiknya ringan dan mencakup pembersihan dan pelembapan secara teratur. Gunakan produk perawatan kulit yang cocok untuk jenis kulit Anda, hindari produk berat, dan jangan lupa gunakan tabir surya saat beraktivitas di luar ruangan.",
-                "Saat remaja, penting untuk menjaga kulit tetap bersih dan hindari merokok serta konsumsi alkohol. Selalu gunakan produk perawatan yang lembut dan sesuai dengan kebutuhan kulit Anda."
+                "Perawatan wajah untuk remaja sebaiknya ringan dan mencakup pembersihan dan pelembapan secara teratur. Gunakan produk perawatan wajah yang cocok untuk jenis wajah Anda, hindari produk berat, dan jangan lupa gunakan tabir surya saat beraktivitas di luar ruangan.",
+                "Saat remaja, penting untuk menjaga wajah tetap bersih dan hindari merokok serta konsumsi alkohol. Selalu gunakan produk perawatan yang lembut dan sesuai dengan kebutuhan wajah Anda."
             ]
         },
         {
@@ -283,7 +283,7 @@
             "tag": "perawatan_laser",
             "patterns": [
                 "perawatan laser",
-                "Apakah perawatan laser aman untuk mengatasi masalah kulit?",
+                "Apakah perawatan laser aman untuk mengatasi masalah kulit wajah?",
                 "Efek samping perawatan laser",
                 "Sarankan klinik perawatan laser yang terpercaya",
                 "Keamanan perawatan laser"
@@ -343,6 +343,28 @@
             ],
             "responses": [
                 " Flek hitam seringkali disebabkan oleh paparan sinar matahari dan melibatkan peningkatan melanin di kulit. Untuk mengurangi penampilan flek hitam, penting untuk menggunakan tabir surya dengan SPF tinggi setiap hari dan produk perawatan kulit yang mengandung bahan pemudar bercak hitam seperti asam kojik atau vitamin C."
+            ]
+        },
+        {
+            "tag": "saran_makanan_sehat",
+            "patterns": [
+                "Apa makanan sehat yang baik untuk kulit wajah?",
+                "Makanan apa yang bisa membantu kulit wajah saya?",
+                "Saran makanan untuk kulit yang sehat."
+            ],
+            "responses": [
+                "Makanan yang kaya akan antioksidan seperti buah-buahan dan sayuran segar sangat baik untuk kulit wajah Anda, contohnya seperti tomat, wortel, alpukat, dan ikan salmon ke dalam diet Anda untuk kulit yang sehat. Hindari makanan berlemak dan makanan cepat saji yang dapat mempengaruhi kesehatan kulit Anda."
+            ]
+        },
+        {
+            "tag": "pencegahan_penuaan",
+            "patterns": [
+                "Bagaimana cara mencegah penuaan dini pada wajah?",
+                "Apa yang bisa saya lakukan untuk menjaga kulit wajah saya awet muda?",
+                "tips mencegah penuaan dini"
+            ],
+            "responses": [
+                "Pencegahan penuaan pada wajah termasuk penggunaan tabir surya, hidrasi yang cukup, dan menjaga pola tidur yang baik. Perawatan kulit rutin dengan produk anti-penuaan juga bisa membantu. Anda bisa berkonsultasi dengan seorang dermatolog untuk informasi yang lebih spesifik."
             ]
         }
     ]
