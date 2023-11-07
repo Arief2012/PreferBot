@@ -136,9 +136,11 @@
         {
             "tag": "pencarian_pori_kecil",
             "patterns": [
-                "mengurangi pori-pori besar.",
+                "mengurangi pori-pori kulit.",
                 "membuat pori-pori wajah lebih kecil?",
-                "Produk untuk pori-pori besar"
+                "Produk untuk pori-pori kulit",
+                "pori wajah",
+                "mengatasi pori-pori pada wajah"
             ],
             "responses": [
                 "Untuk mengurangi pori-pori besar, Anda dapat mencari produk perawatan yang mengandung asam salisilat atau niacinamide. Produk ini dapat membantu menyempitkan pori-pori dan menjaga wajah tampak lebih halus.",
