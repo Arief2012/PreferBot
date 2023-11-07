@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Prediksi facecare</title>
+    <title>Prediksi skincare</title>
     <link
       rel="stylesheet"
       type="text/css"
       href="{{ url_for('static', filename='styles/prediksi.css')}}"
+    />
+    <link
+      rel="icon"
+      href="/static/images/logo-prefer1.png"
+      type="image/x-icon"
     />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -20,20 +25,209 @@
     ></script>
   </head>
 
-  <body style="background-color: #d6d6d6">
-    <div
-      class="d-flex flex-column align-items-start gap-3"
-    >
-      <a
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-light ">
+    <div class="container fw-bold text-lg-start text-secondary">
+      <a class="navbar-brand" href="/prediksi">
+        <img
+          src="static/images/logo-prefer1.png"
+          alt=""
+          width="40"
+          height="34"
+          class="d-inline-block text-lg-start me-3"
+        />
+        Prediksi Skincare
+      </a>
+
+      <!-- tombol back -->
+      
+      <section id="tombol_back">
+        <div class ="back text-black text-decoration-none px-3 py-1 rounded-2 border border-1 ms-3 fs-6 ">
+          <a
         href="/"
-        class="back text-black text-decoration-none px-3 py-1 rounded-2 border-0 mt-4 ms-5"
-        >Back To Home</a
-      >
+        class="back text-black text-decoration-none py-1 rounded-2  fs-6 "
+        >Back
+      </a>
+      </div>
+      
+        
     </div>
-    <h1>PreferBot</h1>
-    <h2 class="subjudul">Sistem Rekomendasi Face Care</h2>
+  </nav>
+  <!-- End Navbar -->
+
+  <!-- jumbotron -->
+  <div class="jumbotron jumbotron-fluid text-left mb-5">
+    <div class="container">
+      <h1 class="display-4">PreferBot</h1>
+      <h2 class="subjudul ">Find Your Ideal Skincare Products for </h2>
+      <h2 class="subjudul mb-5 ">Your Skin Type and Condition.</h2>
+
+    </div>
+  </div>
+  <!-- End jumbotron -->
+
+
+
+    <!-- form-->
+    <section id="form_prediksi">
+      <div class ="container  border border-2 rounded-2 mb-4 mt-5">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="container text-center mt-3 ">
+              <h1 class="display-5 mb-3">Form</h1>
+              <p class="lead ">Please Provide Information About Your Skin Condition..!</p>
+            </div>
+            <!-- Jenis Kelamin -->
+            <label for="formGroupExampleInput2" class="form-label mt-5 fw-bolder"
+                >Jenis Kelamin</label>
+            <div class="shadow p-3 mb-5 border border-2 rounded-2">
+              
+              <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="radiolaki">
+                <label class="form-check-label" for="flexRadioDefault">
+                  Laki-laki
+                </label>
+              </div>
+            
+              <div class="form-check ">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="radioperempuan" >
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Perempuan
+                </label>
+              </div>
+            </div>
+
+            <!-- Usia -->
+            <label for="formGroupExampleInput2" class="form-label fw-bolder"
+                >Usia</label>
+
+            <div class="shadow p-3 mb-5 border border-2 rounded-2">
+              <input
+                type="text"
+                class="form-control"
+                id="formGroupExampleInput2"
+                placeholder="Masukan Usia Anda"
+              />
+            </div>
+            <!-- Jenis Kulit -->
+            <label for="formGroupExampleInput2" class="form-label fw-bolder"
+                >Jenis Kulit</label
+              >
+            <div class=" shadow p-3 mb-5 border border-2 rounded-2">
+            <select class="form-select " aria-label="Default select example">
+              <option selected>Pilih Jenis Kulit</option>
+              <option value="Berminyak">Berminyak</option>
+              <option value="Normal">Normal</option>
+              <option value="Kering">Kering</option>
+              <option value="Kombinasi">Kombinasi</option>
+            </select>
+          </div>
+
+            <!-- Masalah Kulit -->
+            <label for="formGroupExampleInput2" class="form-label fw-bolder"
+                >Masalah Kulit</label
+              >
+            <div class="shadow p-3 mb-5 border border-2 rounded-2 ">
+              
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Pilih Masalah Kulit Anda</option>
+              <option value="Komedo">Komedo</option>
+              <option value="Kusam">Kusam</option>
+              <option value="Jerawat">Jerawat</option>
+              <option value="Beruntusan">Beruntusan</option>
+              <option value="Kerutan">Kerutan</option>
+              <option value="Milia">Milia</option>
+              <option value="Bekas Jerawat">Bekas Jerawat (Dark Spot)</option>
+              <option value="Flek Hitam">Flek Hitam</option>
+              <option value="Mata Panda">Mata Panda (Dark Circle)</option>
+            </select>
+          </div>
+
+            <!-- Produk Yang digunakan -->
+            <label for="formGroupExampleInput2" class="form-label fw-bolder"
+                >Produk yang digunakan</label
+              >
+            <div class="shadow p-3 mb-5 border border-2 rounded-2">
+              
+              <select class="form-select mb-3" aria-label="Default select example">
+                <option selected>Pilih Produk yang  anda digunakan</option>
+                <option value="MsGlow">MsGlow</option>
+                <option value="Skintific">Skintific</option>
+                <option value="Acnes">Acnes</option>
+                <option value="Wardah">Wardah</option>
+                <option value="Emina">Emina</option>
+                <option value="Sari Ayu">Sari Ayu</option>
+                <option value="Mustika Ratu">Mustika Ratu</option>
+                <option value="Nivea">Nivea</option>
+                <option value="Avoskin">Avoskin</option>
+                <option value="Garnier">Garnier</option>
+                <option value="Biore">Biore</option>
+                <option value="Hanasui">Hanasui</option>
+                <option value="BioAqua">BioAqua</option>
+                <option value="Ponds">Ponds</option>
+                <option value="Cetaphil">Cetaphil</option>
+                <option value="Himalaya">Himalaya</option>
+                <option value="Benings">Benings</option>
+                <option value="Loreal">Loreal</option>
+                <option value="Scarlett">Scarlett</option>
+                <option value="Safi">Safi</option>
+                <option value="WhiteLab">WhiteLab</option>
+                <option value="Clean and Clear">Clean and Clear</option>
+                <option value="Azarine">Azarine</option>
+                <option value="St.Ives">St.Ives</option>
+              </select>
+            </div>
+            
+
+            <!-- harga -->
+            <label for="formGroupExampleInput2" class="form-label fw-bolder"
+                >Harga Yang Anda Inginkan untuk Skincare Anda</label
+              >
+            <div class="shadow p-3 mb-5 border border-2 rounded-2">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="Murah">
+                <label class="form-check-label" for="Murah">
+                  Rp10.000 hingga Rp100.000
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="Sedang">
+                <label class="form-check-label" for="Sedang">
+                  Rp100.000 hingga Rp500.000
+                </label>
+              </div>
+
+              <div class="form-check ">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="Mahal" >
+                <label class="form-check-label" for="Mahal">
+                  Lebih dari Rp500.000
+                </label>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+<!-- end form-->
+
+<!-- tombol-->
     <form method="POST" action="/prediksi">
-      <input type="submit" value="Prediksi" class="mb-4 justify-content-center text-black" />
+      <div class="center-button">
+        <input
+        type="submit"
+        value="Prediksi"
+        class=" mx-auto mb-5 mt-5  justify-content-center text-black fw-bolder"
+      />
     </form>
+    
+  <!-- Footer -->
+  <footer>
+    <div
+      class="flex-wrap pt-3 d-flex align-items-center justify-content-center justify-content-md-between"
+    >
+      <p>Copyright © 2023 Neo 3</p>
+    </div>
+  </footer>  
   </body>
 </html>
