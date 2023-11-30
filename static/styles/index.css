@@ -79,7 +79,7 @@ body {
   text-align: center;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
-.content a {
+.home .content a {
   color: #000;
   display: block;
   font-size: 1rem;
@@ -93,18 +93,6 @@ body {
   text-decoration: none;
   transform: translateY(20px);
 }
-.content a:hover {
+.home .content a:hover {
   background: #fcacd1;
-}
-section {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-section h2 {
-  font-size: 2rem;
-}
-section > p {
-  text-align: center;
-  font-size: 1rem; 
 }
