@@ -11,15 +11,19 @@ from sklearn.preprocessing import LabelEncoder
 
 app = Flask(__name__)
 
+
 @app.route('/')
 def home():
     return render_template('index.html')
+
 
 @app.route('/prediksi')
 def prediksi():
     return render_template('prediksi.html')
 
-
+@app.route('/produk')
+def produk():
+    return render_template('produk.html')
 
 # Pretrained Model
 PRE_TRAINED_MODEL = 'indobenchmark/indobert-base-p2'
@@ -28,7 +32,8 @@ PRE_TRAINED_MODEL = 'indobenchmark/indobert-base-p2'
 bert_tokenizer = BertTokenizer.from_pretrained(PRE_TRAINED_MODEL)
 
 # Load hasil fine-tuning
-bert_load_model = TFBertForSequenceClassification.from_pretrained(PRE_TRAINED_MODEL, num_labels=27)
+bert_load_model = TFBertForSequenceClassification.from_pretrained(
+    PRE_TRAINED_MODEL, num_labels=27)
 
 # Load Model
 bert_load_model.load_weights('bert-model.h5')
@@ -66,26 +71,31 @@ le = LabelEncoder()
 data['tags'] = le.fit_transform(data['tags'])
 
 # [Routing untuk API]
+
+
 @app.route("/get/chatbot")
 def apiDeteksi():
     # NLP
     prediction_input = request.args.get('prediction_input')
-    prediction_input = [letters.lower() for letters in prediction_input if letters not in string.punctuation]
+    prediction_input = [letters.lower(
+    ) for letters in prediction_input if letters not in string.punctuation]
     prediction_input = ''.join(prediction_input)
 
     input_text_tokenized = bert_tokenizer.encode(prediction_input,
-                                                truncation=True,
-                                                padding='max_length',
-                                                return_tensors='tf')
+                                                 truncation=True,
+                                                 padding='max_length',
+                                                 return_tensors='tf')
 
     bert_predict = bert_load_model(input_text_tokenized)  # Lakukan prediksi
-    bert_predict = tf.nn.softmax(bert_predict[0], axis=-1)  # Softmax function untuk mendapatkan hasil klasifikasi
+    # Softmax function untuk mendapatkan hasil klasifikasi
+    bert_predict = tf.nn.softmax(bert_predict[0], axis=-1)
     output = tf.argmax(bert_predict, axis=1)
 
     response_tag = le.inverse_transform([output])[0]
     res = random.choice(responses[response_tag])
 
     return res
+
 
 if __name__ == '__main__':
     app.run(debug=True)

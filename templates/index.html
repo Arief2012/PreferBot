@@ -31,7 +31,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="icon" href="/static/images/logo-prefer1.png" type="image/x-icon" />
+    <link
+      rel="icon"
+      href="/static/images/logo-prefer1.png"
+      type="image/x-icon"
+    />
 
     <title>Home</title>
   </head>
@@ -76,7 +80,7 @@
             ></button>
           </div>
           <!--sidebar body-->
-          <div class="offcanvas-body d-flex flex-column flex-lg-row p-2 ">
+          <div class="offcanvas-body d-flex flex-column flex-lg-row p-2">
             <ul
               class="navbar-nav justify-content-center align-items-center fw-semibold fs-4 flex-grow-1 pe-2"
             >
@@ -114,20 +118,251 @@
     <!--End Home-->
 
     <!--about-->
-    <section id="about"></section>
+    <section id="about" class="bg-light">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase text-dark">About us</h2>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <img
+              class="img-fluid mb-4"
+              src="/static/images/logo-prefer1.png"
+              alt="PreferBot Logo"
+            />
+            <h4 class="my-3 text-dark">
+              PreferBot (Predict Face Care Recommendation and Chatbot)
+            </h4>
+            <p class="text-muted">
+              PreferBot merupakan suatu sistem rekomendasi produk perawatan
+              wajah yang berbasis website dan dilengkapi dengan fitur chatbot
+              untuk menanyakan seputar perawatan wajah. Sistem ini dirancang
+              untuk membantu pengguna dalam menemukan produk perawatan wajah
+              yang sesuai dengan kebutuhan dan preferensi wajah anda.
+            </p>
+            <div class="row text-center">
+              <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fas fa-user-md fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="my-3">Sistem Rekomendasi</h4>
+                <p class="text-muted">
+                  Sistem rekomendasi yang membantu Anda menentukan produk
+                  perawatan wajah yang sesuai dengan kebutuhan kulit Anda.
+                </p>
+              </div>
+              <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fas fa-comments fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="my-3">Chatbot</h4>
+                <p class="text-muted">
+                  Chatbot interaktif yang siap membantu Anda dengan pertanyaan
+                  seputar perawatan wajah dan rekomendasi produk.
+                </p>
+              </div>
+              <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="my-3">Produk Rekomendasi</h4>
+                <p class="text-muted">
+                  Dapatkan rekomendasi produk-produk perawatan wajah terbaik untuk
+                  mendapatkan kulit yang sehat dan bersinar.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!--End about-->
 
     <!--Produk-->
-    <section id="produk"></section>
-
+    <section id="produk">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase text-dark">Produk</h2>
+          <h3 class="section-subheading text-muted">
+            Rekomendasi Produk Terbaik
+          </h3>
+        </div>
+        <div id="produkContainer" class="row"></div>
+        <div class="text-center">
+          <a href="/produk" class="btn mt-5 fs-5">Produk lainya</a>
+        </div>
+      </div>
+    </section>
     <!--End Produk-->
 
     <!--Team-->
-    <section id="team"></section>
-    
+    <section id="team">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase text-dark">Our Team</h2>
+        </div>
+        <div class="wrapper">
+          <i id="left" class="fa-solid fa-angle-left"></i>
+          <ul class="carousel">
+            <li class="card">
+              <div class="img">
+                <img
+                  class="rounded-circle profileImage img-thumbnail"
+                  src="{{ url_for('static', filename='images/team/Rizki-arief.png') }}"
+                  alt="image Profile"
+                  draggable="false"
+                />
+              </div>
+              <h3>Rizki Arief Dehanudin</h3>
+              <p>ML Enginer</p>
+              <a
+                href="https://www.instagram.com/r_arief__/"
+                target="_blank"
+                class="btn"
+                style="color: black"
+                >Profile</a
+              >
+            </li>
+            <li class="card">
+              <div class="img">
+                <img
+                  class="rounded-circle profileImage img-thumbnail"
+                  src="{{ url_for('static', filename='images/team/zain.png') }}"
+                  alt="image Profile"
+                  draggable="false"
+                />
+              </div>
+              <h3>Zain Arif Wildan Sugandi</h3>
+              <p>Data Enginer</p>
+              <a
+                href="https://www.instagram.com/zainzain_1005k/"
+                target="_blank"
+                class="btn"
+                style="color: black"
+                >Profile</a
+              >
+            </li>
+            <li class="card">
+              <div class="img">
+                <img
+                  class="rounded-circle profileImage img-thumbnail"
+                  src="{{ url_for('static', filename='images/team/aitsna.png') }}"
+                  alt="image Profile"
+                  draggable="false"
+                />
+              </div>
+              <h3>Aitsnainawati Dewi</h3>
+              <p>Frontend Engineer</p>
+              <a
+                href="https://www.instagram.com/aitsnaaadewi/"
+                target="_blank"
+                class="btn"
+                style="color: black"
+                >Profile</a
+              >
+            </li>
+            <li class="card">
+              <div class="img">
+                <img
+                  class="rounded-circle profileImage img-thumbnail"
+                  src="{{ url_for('static', filename='images/team/Nishrina.jpg') }}"
+                  alt="image Profile"
+                  draggable="false"
+                />
+              </div>
+              <h3>Nishrina Syifa</h3>
+              <p>UI/UX Designer</p>
+              <a
+                href="https://www.instagram.com/theonlyonerina/"
+                target="_blank"
+                class="btn"
+                style="color: black"
+                >Profile</a
+              >
+            </li>
+            <li class="card">
+              <div class="img">
+                <img
+                  class="rounded-circle profileImage img-thumbnail"
+                  src="{{ url_for('static', filename='images/team/Tiar.png') }}"
+                  alt="image Profile"
+                  draggable="false"
+                />
+              </div>
+              <h3>Tiar Aulia Maulid</h3>
+              <p>UI/UX Designer</p>
+              <a
+                href="https://www.instagram.com/trldmld_/"
+                target="_blank"
+                class="btn"
+                style="color: black"
+                >Profile</a
+              >
+            </li>
+            <li class="card">
+              <div class="img">
+                <img
+                  class="rounded-circle profileImage img-thumbnail"
+                  src="{{ url_for('static', filename='images/team/Erly.png') }}"
+                  alt="image Profile"
+                  draggable="false"
+                />
+              </div>
+              <h3>Erly Dwi Puspita</h3>
+              <p>Technical Writer</p>
+              <a
+                href="https://www.instagram.com/erlydwii/"
+                target="_blank"
+                class="btn"
+                style="color: black"
+                >Profile</a
+              >
+            </li>
+          </ul>
+          <i id="right" class="fa-solid fa-angle-right"></i>
+        </div>
+      </div>
+    </section>
     <!--End Team-->
 
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-support">
+        <figure>
+          <p class="text-center">Support By:</p>
+          <a href="https://kampusmerdeka.kemdikbud.go.id/" target="_blank"
+            ><img
+              src="static/images/kampusmerdeka.png"
+              alt="kampusmerdeka.kemdikbud.go.id"
+          /></a>
+          <a href="https://orbitfutureacademy.id/" target="_blank"
+            ><img src="static/images/orbit.png" alt="orbitfutureacademy.id"
+          /></a>
+          <a href="https://www.amikompurwokerto.ac.id/" target="_blank"
+            ><img
+              src="static/images/amikom.png"
+              alt="www.amikompurwokerto.ac.id"
+          /></a>
+          <a href="https://www.upi.edu/" target="_blank"
+            ><img src="static/images/upi.png" alt="www.upi.edu"
+          /></a>
+          <a href="/" target="_blank"
+            ><img src="static/images/logo-prefer1.png" alt="logo-prefer"
+          /></a>
+        </figure>
+      </div>
+      <div class="footer-copyrights">
+        <figure>
+          <img src="static/images/logo-prefer2.png" alt="gambar footer" />
+          <p>&copy; 2023 Neo-3 All rights reserved.</p>
+        </figure>
+      </div>
+    </footer>
+    <!--End Footer-->
     <!-- Chatbot -->
     <div class="chatbox">
       <div class="chatbox__support">
@@ -160,7 +395,7 @@
           >
             <span
               class="fa-solid fa-paper-plane fa-lg"
-              style="color: #246fe2"
+              style="color: #fcacd1"
             ></span>
           </button>
         </form>
@@ -170,15 +405,326 @@
       </a>
     </div>
     <!--End Chabot-->
-    <!-- Footer -->
-    <footer>
-      <div class="flex-wrap pt-3 d-flex align-items-center justify-content-center justify-content-md-between">
-        <p>Copyright © 2023 Neo 3</p>
+
+    <!-- produk item 1 modal popup-->
+    <div
+      class="produk-modal modal fade"
+      id="produkModal1"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal">
+            <img src="/static/images/close-icon.svg" alt="Close modal" />
+          </div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">MS Glow</h2>
+                  <p class="item-intro text-muted">
+                    Ms Glow For MEN ENERGIZER Facial Wash
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="/static/images/product/MsGlow/29d.png"
+                    alt="..."
+                  />
+                  <p>
+                    MS GLOW FOR MEN ENERGIZER FACIAL WASH, pembersih wajah 3in1
+                    yang diperkaya dengan Avena Strigosa Seed Extract,
+                    BeadsNiacinamide, dan Clay yang membantu mencerahkan,
+                    melembutkan, melembabkan dan membersihkan minyak secara
+                    optimal. Cocok digunakan untuk kulit normal atau kulit yang
+                    berjerawat dan kusam karena Ms Glow Man Energizer Facial
+                    Wash ini mempunyai manfaat sebagai Hydra Boost, Detoxifying
+                    dan Brightening serta mempunyai tekstur scrub yang dapat
+                    mengangkat sel kulit mati dan efek dingin di muka.
+                  </p>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Harga :</strong>
+                      Rp. 60.000
+                    </li>
+                    <li>
+                      <strong>Category:</strong>
+                      Facial Wash
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-     </footer>
-     <!--End Footer-->
+    </div>
+    <!-- produk item 2 modal popup-->
+    <div
+      class="produk-modal modal fade"
+      id="produkModal2"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal">
+            <img src="/static/images/close-icon.svg" alt="Close modal" />
+          </div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">NPURE</h2>
+                  <p class="item-intro text-muted">
+                    NPURE NPURE LICORICE CREAMY LIGHT MOISTURIZER
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="/static/images/product/Nivea/33c.png"
+                    alt="..."
+                  />
+                  <p>
+                    NPURE LICORICE CREAMY LIGHT MOISTURIZER merupakan Pelembap
+                    bertekstur krim yang lembut, mengandung 5+2 ULTIMATE ACTIVE
+                    yang membantu mencerahkan,menghidrasi, dan menjaga
+                    kelembapan alami kulit. Kulit akan terasa lebih lembut,
+                    halus, dan cerah bersinar.
+                  </p>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Harga :</strong>
+                      Rp. 100.000
+                    </li>
+                    <li>
+                      <strong>Category:</strong>
+                      MOISTURIZER
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- produk item 3 modal popup-->
+    <div
+      class="produk-modal modal fade"
+      id="produkModal3"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal">
+            <img src="/static/images/close-icon.svg" alt="Close modal" />
+          </div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">MS Glow</h2>
+                  <p class="item-intro text-muted">MS Glow Acne Night Cream</p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="/static/images/product/MsGlow/29j.png"
+                    alt="..."
+                  />
+                  <p>
+                    MS Glow Acne Night Cream, krim malam yang diformulasikan
+                    khusus untuk membantu merawat kulit berjerawat, mengurangi
+                    peradangan pada jerawat, dan mengontrol minyak berlebih pada
+                    kulit wajah. Salah satu kandungan utama yang dapat membantu
+                    mengatasai masalah jerawat adalah Niacinamide dan Sulfur
+                    yang berfungsi sebagai anti-acne.
+                  </p>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Harga :</strong>
+                      Rp. 75.000
+                    </li>
+                    <li>
+                      <strong>Category:</strong>
+                      Night Cream
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- produk item 4 modal popup-->
+    <div
+      class="produk-modal modal fade"
+      id="produkModal4"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal">
+            <img src="/static/images/close-icon.svg" alt="Close modal" />
+          </div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">Kahf</h2>
+                  <p class="item-intro text-muted">
+                    Kahf Oil and Acne Care Face Wash
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="/static/images/product/Khaf/26a.png"
+                    alt="..."
+                  />
+                  <p>
+                    Kahf Triple Action Oil and Comedo Defense Face Wash, Sabun
+                    cuci muka khusus pria yang mengandung UltraAbsorb Charcoal
+                    dan HydroBalance yang menyerap minyak secara intensif dari
+                    kulit tanpa menghilangkan kelembapannya. Diformulasikan
+                    dengan AHA-BHA-PHA yang bantu angkat komedo secara efektif.
+                    Gunakan juga produk ini sebagai masker dan mild peeling
+                    solution untuk hasil yang optimal.
+                  </p>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Harga :</strong>
+                      Rp. 35.000
+                    </li>
+                    <li>
+                      <strong>Category:</strong>
+                      Facial Wash
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- produk item 5 modal popup-->
+    <div
+      class="produk-modal modal fade"
+      id="produkModal5"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal">
+            <img src="/static/images/close-icon.svg" alt="Close modal" />
+          </div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">Ms Glow</h2>
+                  <p class="item-intro text-muted">
+                    Ms glow Charcoal clay mask
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="/static/images/product/MsGlow/29b.png"
+                    alt="..."
+                  />
+                  <p>
+                    Ms glow Charcoal clay mask, mengatasi masalah Kulit kusam
+                    dan pori2 besar, menjadikan kulit wajah lebih kenyal, cerah
+                    & terjaga. Charcoal Clay mask ini memliki sifat sebagai
+                    drying skin agent. Selain mampu untuk mengangkat kotoran dan
+                    debu, charcoal clay mask juga dapat menyerap minyak berlebih
+                    pada wajah.
+                  </p>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Harga :</strong>
+                      Rp. 125.000
+                    </li>
+                    <li>
+                      <strong>Category:</strong>
+                      mask
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- produk item 6 modal popup-->
+    <div
+      class="produk-modal modal fade"
+      id="produkModal6"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal">
+            <img src="/static/images/close-icon.svg" alt="Close modal" />
+          </div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">Safi</h2>
+                  <p class="item-intro text-muted">
+                    Safi Dermasafe Mild & Gentle Gel Cleanser
+                  </p>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="/static/images/product/Safi/36c.png"
+                    alt="..."
+                  />
+                  <p>
+                    Membersihkan kulit dari sebum & kotoran yang berlebihan
+                    secara optimal, membantu merawat dan menyejukkan kulit yang
+                    kemerahan & iritasi sehingga kulit terasa nyaman,
+                    mencerahkan kulit, menjaga keseimbangan kelembaban kulit,
+                    sebagai antioxidan yang dapat menangkal efek radikal bebas,
+                    membantu meratakan warna kulit, mengatasi masalah jerawat,
+                    membuat kulit tampak lebih sehat dan bercahaya.
+                  </p>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Harga :</strong>
+                      Rp. 65.000
+                    </li>
+                    <li>
+                      <strong>Category:</strong>
+                      Gel Cleanser
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="/static/scripts/Chat.js"></script>
     <script src="/static/scripts/app.js"></script>
+    <script src="/static/scripts/index.js"></script>
+    <script src="/static/scripts/produk.js"></script>
+    <script src="/static/scripts/jquery.min.js"></script>
+    <script src="/static/scripts/bootstrap.bundle.min.js"></script>
   </body>
-  
 </html>
