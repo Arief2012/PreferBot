@@ -109,54 +109,55 @@
     <section class="home" id="home">
       <div class="content">
         <div class="bg">
-        <div class="text">
-          <h1>Welcome to PreferBot</h1>
-          <p>Memberikan Rekomendasi Terbaik untuk Produk Facecare</p>
-        </div>
-        <a href="/prediksi">Get Start</a></div></div>
-            <!-- Chatbot -->
-    <div class="chatbox"tabindex="-1">
-      <div class="chatbox__support">
-        <div class="chatbox__header">
-          <div class="chatbox__image--header">
-            <img src="static/images/logo-chat.png" alt="Logo" />
+          <div class="text">
+            <h1>Welcome to PreferBot</h1>
+            <p>Memberikan Rekomendasi Terbaik untuk Produk Facecare</p>
           </div>
-          <div class="chatbox__content--header">
-            <h5 class="chatbox__heading--header">PreferBot</h5>
-          </div>
+          <a href="/prediksi">Get Start</a>
         </div>
-        <div class="chatbox__messages" id="chatbot">
-          <div id="conversation">
-            <div class="messages__item messages__item--operator">
-              Hai, Selamat datang di PreferBot!👋 Ada yang mau ditanyakan?
+        <!-- Chatbot -->
+        <div class="chatbox" tabindex="-1">
+          <div class="chatbox__support">
+            <div class="chatbox__header">
+              <div class="chatbox__image--header">
+                <img src="static/images/logo-chat.png" alt="Logo" />
+              </div>
+              <div class="chatbox__content--header">
+                <h5 class="chatbox__heading--header">PreferBot</h5>
+              </div>
             </div>
+            <div class="chatbox__messages" id="chatbot">
+              <div id="conversation">
+                <div class="messages__item messages__item--operator">
+                  Hai, Selamat datang di PreferBot!👋 Ada yang mau ditanyakan?
+                </div>
+              </div>
+            </div>
+            <form id="input-form" class="chatbox__footer">
+              <input
+                id="input-field"
+                type="text"
+                placeholder="Tulis pertanyaanmu disini"
+                required
+              />
+              <button
+                id="submit-button"
+                type="submit"
+                class="chatbox__send--footer"
+              >
+                <span
+                  class="fa-solid fa-paper-plane fa-lg"
+                  style="color: #fcacd1"
+                ></span>
+              </button>
+            </form>
           </div>
+          <a href="#" class="chatbox__button" role="button">
+            <img src="static/images/live-chat.png" alt="Live Chat" />
+          </a>
         </div>
-        <form id="input-form" class="chatbox__footer">
-          <input
-            id="input-field"
-            type="text"
-            placeholder="Tulis pertanyaanmu disini"
-            required
-          />
-          <button
-            id="submit-button"
-            type="submit"
-            class="chatbox__send--footer"
-          >
-            <span
-              class="fa-solid fa-paper-plane fa-lg"
-              style="color: #fcacd1"
-            ></span>
-          </button>
-        </form>
+        <!--End Chabot-->
       </div>
-      <a  href="#"class="chatbox__button" role="button">
-        <img src="static/images/live-chat.png" alt="Live Chat" />
-      </a>
-    </div>
-    <!--End Chabot-->
-      
     </section>
     <!--End Home-->
 
@@ -213,8 +214,8 @@
                 </span>
                 <h4 class="my-3">Produk Rekomendasi</h4>
                 <p class="text-muted">
-                  Dapatkan rekomendasi produk-produk perawatan wajah terbaik untuk
-                  mendapatkan kulit yang sehat dan bersinar.
+                  Dapatkan rekomendasi produk-produk perawatan wajah terbaik
+                  untuk mendapatkan kulit yang sehat dan bersinar.
                 </p>
               </div>
             </div>
@@ -406,7 +407,6 @@
       </div>
     </footer>
     <!--End Footer-->
-
 
     <!-- produk item 1 modal popup-->
     <div

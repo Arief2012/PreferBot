@@ -53,7 +53,6 @@ function generateResponse(input) {
         message.classList.add('messages__item','messages__item--operator');
         message.innerHTML = `${response}`;
         conversation.appendChild(message);
-        message.scrollIntoView({behavior: "smooth"});
         
         // return msgText;
         // appendMessage(BOT_NAME, BOT_IMG, "left", msgText);
