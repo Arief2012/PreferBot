@@ -68,19 +68,25 @@ body {
   flex-direction: column;
   backdrop-filter: blur(4px);
 }
-.home .content h1 {
+.home .content .bg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.home .content .bg h1 {
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 10px;
 }
-.home .content .text {
+.home .content .bg .text {
   margin-bottom: 30px;
   color: #ffffff;
   font-size: 1.5rem;
   text-align: center;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
-.home .content a {
+.home .content .bg a {
   color: #000;
   display: block;
   font-size: 1rem;
@@ -94,7 +100,7 @@ body {
   text-decoration: none;
   transform: translateY(20px);
 }
-.home .content a:hover {
+.home .content .bg a:hover {
   background: #fcacd1;
 }
 
