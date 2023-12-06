@@ -17,6 +17,7 @@ app = Flask(__name__)
 with open('model_ds.pkl', 'rb') as file:
     model = pickle.load(file)
 
+
 @app.route('/')
 def home():
     return render_template('index.html')
@@ -100,6 +101,7 @@ def apiDeteksi():
     res = random.choice(responses[response_tag])
 
     return res
+
 
 # [Routing untuk API Prediksi]
 @app.route("/get/prediksi_skincare", methods=['POST'])
@@ -238,6 +240,7 @@ def ApiDeteksi():
     #Return hasil prediksi dengan format JSON
     return render_template('prediksi.html',
     hasil_prediksi=hasil_prediksi, produk_digunakan = result, gambar_prediksi = gambar_prediksi)
+
 
 
 if __name__ == '__main__':

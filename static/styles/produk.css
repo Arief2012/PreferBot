@@ -1,0 +1,145 @@
+/* Produk */
+#daftarProduk {
+  background-color: #e4d1d1a6;
+}
+.section-heading {
+  /* Contoh ukuran font 36px dan berat font bold */
+  font-size: 30px;
+  font-weight: bold;
+}
+#daftarProduk .container {
+  max-width: 1100px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 50px 10px;
+  margin: auto;
+  bottom: 30px;
+}
+#daftarProduk .produk-item {
+  max-width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+#daftarProduk .produk-item .img-fluid {
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+#daftarProduk .produk-item .produk-link {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+#daftarProduk .produk-item .produk-link .produk-hover {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(252, 172, 209, 0.7);
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity ease-in-out 0.25s;
+}
+#daftarProduk .produk-item .produk-link .produk-hover .produk-hover-content {
+  font-size: 1.25rem;
+  color: white;
+}
+#daftarProduk .produk-item .produk-link:hover .produk-hover {
+  opacity: 1;
+}
+#daftarProduk .produk-item .produk-caption {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #fff;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+#daftarProduk .produk-item .produk-caption .produk-caption-heading {
+  font-size: 1.5rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  margin-bottom: 0;
+}
+#daftarProduk .produk-item .produk-caption .produk-caption-subheading {
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.produk-modal .modal-dialog {
+  margin: 1rem;
+  max-width: 100vw;
+}
+.produk-modal .modal-content {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+}
+.produk-modal .modal-content h2,
+.produk-modal .modal-content .h2 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+.produk-modal .modal-content p.item-intro {
+  font-style: italic;
+  margin-bottom: 2rem;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.produk-modal .modal-content p {
+  margin-bottom: 2rem;
+}
+.produk-modal .modal-content ul.list-inline {
+  margin-bottom: 2rem;
+}
+.produk-modal .modal-content img {
+  margin-bottom: 2rem;
+}
+.produk-modal .close-modal {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+.produk-modal .close-modal:hover {
+  opacity: 0.3;
+}
+
+/* fotter */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e4d1d1a6;;
+  }
+  
+  .footer-support {
+    margin-bottom: 20px;
+  }
+  
+  .footer-copyrights {
+    text-align: center;
+  }
+  .footer-support img {
+    max-width: 5rem;
+    height: auto;
+  }
+  .footer-copyrights img {
+    max-width:  10rem;
+    height: auto;
+  }
