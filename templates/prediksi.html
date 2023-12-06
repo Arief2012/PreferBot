@@ -23,23 +23,23 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
   </head>
 
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-light ">
     <div class="container fw-bold text-lg-start text-secondary">
-      <a class="navbar-brand" href="/prediksi">
+      <a class="navbar-brand" href="/prediksi" >
         <img
           src="static/images/logo-prefer1.png"
           alt=""
-          width="40"
-          height="34"
           class="d-inline-block text-lg-start me-3"
         />
         Prediksi Skincare
       </a>
-
       <!-- tombol back -->
       
       <section id="tombol_back">
@@ -50,7 +50,6 @@
         >Back
       </a>
       </div>
-      
         
     </div>
   </nav>
@@ -66,168 +65,153 @@
     </div>
   </div>
   <!-- End jumbotron -->
-
-
-
-    <!-- form-->
-    <section id="form_prediksi">
-      <div class ="container  border border-2 rounded-2 mb-4 mt-5">
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <div class="container text-center mt-3 ">
-              <h1 class="display-5 mb-3">Form</h1>
-              <p class="lead ">Please Provide Information About Your Skin Condition..!</p>
-            </div>
-            <!-- Jenis Kelamin -->
-            <label for="formGroupExampleInput2" class="form-label mt-5 fw-bolder"
-                >Jenis Kelamin</label>
-            <div class="shadow p-3 mb-5 border border-2 rounded-2">
-              
-              <div class="form-check mb-2">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="radiolaki">
-                <label class="form-check-label" for="flexRadioDefault">
-                  Laki-laki
-                </label>
+  
+    <section>
+        <div class ="container  border border-2 rounded-2 mb-4 mt-5" >
+          <div class="row justify-content-center">
+            <div class="col-md-6 ">
+              <div class="container text-center mt-3 ">
+                <h1 class="display-5 mb-3">Form</h1>
+                <p class="lead ">Please Provide Information About Your Skin Condition..!</p>
               </div>
-            
-              <div class="form-check ">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="radioperempuan" >
-                <label class="form-check-label" for="flexRadioDefault2">
-                  Perempuan
-                </label>
+              <!-- form-->
+              <form id="form_prediksi" method="POST" action="/get/prediksi_skincare">
+                <!-- Jenis Kelamin -->
+                <label for="Jenis_kelamin" class="form-label mt-5 fw-bolder">Jenis Kelamin</label>
+                <div class="shadow  mb-4 border border-2 rounded-2">
+                  <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" name="jenis_kelamin" id="radiolaki" value=1>
+                    <label class="form-check-label" for="radiolaki">Laki-laki</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="jenis_kelamin" id="radioperempuan" value=0>
+                    <label class="form-check-label" for="radioperempuan">Perempuan</label>
+                  </div>
+                </div>
+                
+                <!-- Usia -->
+                <label for="usia" class="form-label fw-bolder">Usia</label>
+                <div class="shadow  mb-4 border border-2 rounded-2">
+                  <input type="number" class="form-control" id="usia" name="usia" placeholder="Masukkan Usia Anda">
+                </div>
+                
+                <!-- Jenis Kulit -->
+                <label for="jenis_kulit" class="form-label fw-bolder">Jenis Kulit</label>
+                <div class="shadow  mb-4 border border-2 rounded">
+                  <select class="form-select" id="jenis_kulit" name="jenis_kulit" aria-label="Default select example">
+                    <option selected>Pilih Jenis Kulit</option>
+                    <option value=0>Berminyak</option>
+                    <option value=1>Kombinasi</option>
+                    <option value=2>Normal</option>
+                    <option value=3>Kering</option>
+                    <option value=4>normal to dry</option>
+                    <option value=5>oil to dry</option>
+                    <option value=6>berminyak daerah t zone</option>
+                    <option value=7>kombinasi and sensitif</option>
+                    <option value=8>sensitif</option>
+                  </select>
+                </div>
+                
+                <!-- Masalah Kulit -->
+                <label for="masalah_kulit" class="form-label fw-bolder">Masalah Kulit</label>
+                <div class="shadow  mb-4 border border-2 rounded-2">
+                  <select class="form-select" id="masalah_kulit" name="masalah_kulit" aria-label="Default select example">
+                    <option selected>Pilih Masalah Kulit Anda</option>
+                    <option value=0>Komedo</option>
+                    <option value=1>dark spot</option>
+                    <option value=2>kusam</option>
+                    <option value=3>jerawat</option>
+                    <option value=4>beruntusan</option>
+                    <option value=5>kerutan</option>
+                    <option value=6>dark circle</option>
+                    <option value=7>flek hitam</option>
+                    <option value=8>milia </option>
+                    <option value=9>bekas jerawat </option>
+                    <option value=10>mata panda </option>
+                  </select>
+                </div>
+                
+                <!-- Produk Yang Digunakan -->
+                <label for="produk_digunakan" class="form-label fw-bolder">Produk yang digunakan</label>
+                <div class="shadow mb-4 border border-2 rounded-2">
+                  <select class="form-select mb-3" id="produk_digunakan" name= "produk_digunakan" aria-label="Default select example">
+                    <option selected>Pilih Produk yang Anda Gunakan</option>
+                    <option value=0>MsGlow</option>
+                    <option value=1>Skintific</option>
+                    <option value=2>Acnes</option>
+                    <option value=3>Wardah</option>
+                    <option value=4>Nivea</option>
+                    <option value=5>Avoskin</option>
+                    <option value=6>Garnier</option>
+                    <option value=7>Hanasui</option>
+                    <option value=8>Benings</option>
+                    <option value=9>BioAqua</option>
+                    <option value=10>Biore</option>
+                    <option value=11>Ponds</option>
+                    <option value=12>Loreal</option>
+                    <option value=13>Scarlett</option>
+                    <option value=14>Emina</option>
+                    <option value=15>Himalaya</option>
+                    <option value=16>Mustika Ratu</option>
+                    <option value=17>Cetaphil</option>
+                    <option value=18>Clean and Clear</option>
+                    <option value=19>Safi</option>
+                    <option value=20>WhiteLab</option>
+                    <option value=21>Citra</option>
+                    <option value=22>Azarine</option>
+                    <option value=23>St.Ives</option>
+                    <!-- Tambahkan opsi lain sesuai kebutuhan -->
+                  </select>
+                </div>
+                
+                <!-- Harga -->
+                <label for="harga" class="form-label fw-bolder">Harga Yang Anda Inginkan untuk Skincare Anda</label>
+                <div class="shadow mb-4 border border-2 rounded-2">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="harga" id="harga_murah" value=0>
+                    <label class="form-check-label" for="harga_murah">Murah (Rp.10.000-Rp.100.000)</label>
+                  </div>
+                  
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="harga" id="harga_sedang" value=1>
+                    <label class="form-check-label" for="harga_sedang">Sedang (Rp.100.000-Rp.500.000)</label>
+                  </div>
+                  
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="harga" id="harga_mahal" value=2>
+                    <label class="form-check-label" for="harga_mahal">Mahal (Lebih dari Rp.500.000)</label>
+                  </div>
+                </div>
+                <!-- end form-->
+                
+                <!-- tombol-->
+                <button class="button border-0 mb-4 mt-5">
+                  <input
+                  type="submit"
+                  id = "prediksi_submit"
+                  class="mx-auto  text-black fw-bolder "
+                  />
+                </button>
               </div>
             </div>
-
-            <!-- Usia -->
-            <label for="formGroupExampleInput2" class="form-label fw-bolder"
-                >Usia</label>
-
-            <div class="shadow p-3 mb-5 border border-2 rounded-2">
-              <input
-                type="text"
-                class="form-control"
-                id="formGroupExampleInput2"
-                placeholder="Masukan Usia Anda"
-              />
-            </div>
-            <!-- Jenis Kulit -->
-            <label for="formGroupExampleInput2" class="form-label fw-bolder"
-                >Jenis Kulit</label
-              >
-            <div class=" shadow p-3 mb-5 border border-2 rounded-2">
-            <select class="form-select " aria-label="Default select example">
-              <option selected>Pilih Jenis Kulit</option>
-              <option value="Berminyak">Berminyak</option>
-              <option value="Normal">Normal</option>
-              <option value="Kering">Kering</option>
-              <option value="Kombinasi">Kombinasi</option>
-            </select>
           </div>
+        </form>
 
-            <!-- Masalah Kulit -->
-            <label for="formGroupExampleInput2" class="form-label fw-bolder"
-                >Masalah Kulit</label
-              >
-            <div class="shadow p-3 mb-5 border border-2 rounded-2 ">
-              
-            <select class="form-select" aria-label="Default select example">
-              <option selected>Pilih Masalah Kulit Anda</option>
-              <option value="Komedo">Komedo</option>
-              <option value="Kusam">Kusam</option>
-              <option value="Jerawat">Jerawat</option>
-              <option value="Beruntusan">Beruntusan</option>
-              <option value="Kerutan">Kerutan</option>
-              <option value="Milia">Milia</option>
-              <option value="Bekas Jerawat">Bekas Jerawat (Dark Spot)</option>
-              <option value="Flek Hitam">Flek Hitam</option>
-              <option value="Mata Panda">Mata Panda (Dark Circle)</option>
-            </select>
-          </div>
-
-            <!-- Produk Yang digunakan -->
-            <label for="formGroupExampleInput2" class="form-label fw-bolder"
-                >Produk yang digunakan</label
-              >
-            <div class="shadow p-3 mb-5 border border-2 rounded-2">
-              
-              <select class="form-select mb-3" aria-label="Default select example">
-                <option selected>Pilih Produk yang  anda digunakan</option>
-                <option value="MsGlow">MsGlow</option>
-                <option value="Skintific">Skintific</option>
-                <option value="Acnes">Acnes</option>
-                <option value="Wardah">Wardah</option>
-                <option value="Emina">Emina</option>
-                <option value="Sari Ayu">Sari Ayu</option>
-                <option value="Mustika Ratu">Mustika Ratu</option>
-                <option value="Nivea">Nivea</option>
-                <option value="Avoskin">Avoskin</option>
-                <option value="Garnier">Garnier</option>
-                <option value="Biore">Biore</option>
-                <option value="Hanasui">Hanasui</option>
-                <option value="BioAqua">BioAqua</option>
-                <option value="Ponds">Ponds</option>
-                <option value="Cetaphil">Cetaphil</option>
-                <option value="Himalaya">Himalaya</option>
-                <option value="Benings">Benings</option>
-                <option value="Loreal">Loreal</option>
-                <option value="Scarlett">Scarlett</option>
-                <option value="Safi">Safi</option>
-                <option value="WhiteLab">WhiteLab</option>
-                <option value="Clean and Clear">Clean and Clear</option>
-                <option value="Azarine">Azarine</option>
-                <option value="St.Ives">St.Ives</option>
-              </select>
-            </div>
-            
-
-            <!-- harga -->
-            <label for="formGroupExampleInput2" class="form-label fw-bolder"
-                >Harga Yang Anda Inginkan untuk Skincare Anda</label
-              >
-            <div class="shadow p-3 mb-5 border border-2 rounded-2">
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="Murah">
-                <label class="form-check-label" for="Murah">
-                  Rp10.000 hingga Rp100.000
-                </label>
-              </div>
-
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="Sedang">
-                <label class="form-check-label" for="Sedang">
-                  Rp100.000 hingga Rp500.000
-                </label>
-              </div>
-
-              <div class="form-check ">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="Mahal" >
-                <label class="form-check-label" for="Mahal">
-                  Lebih dari Rp500.000
-                </label>
-              </div>
-            </div>
+        <!-- Menampilkan Hasil -->
+        <div class="prediction mt-5"   >
+          <h2 class="prediction-label text-center" >Jenis Skincare yang cocok adalah </h2>
+          <h2 class="prediction-text text-centerid=" >{{ hasil_prediksi }}</h2>
+          <br>
+          <h2 class="prediction-label text-center" >dari </h2>
+          <h2 class="prediction-text text-center">{{ produk_digunakan}}</h2>
+          <br>
+          <img class= "justify-content-center mb-5"  src = {{gambar_prediksi}} alt="gambar_prediksi" widht="200" height="400"></img>
         </div>
-      </div>
-    </div>
-<!-- end form-->
-
-<!-- tombol-->
-    <form method="POST" action="/prediksi">
-      <div class="center-button">
-        <input
-        type="submit"
-        value="Prediksi"
-        class=" mx-auto mb-5 mt-5  justify-content-center text-black fw-bolder"
-      />
-    </form>
-    
-  <!-- Footer -->
-  <footer>
-    <div
-      class="flex-wrap pt-3 d-flex align-items-center justify-content-center justify-content-md-between"
-    >
-      <p>Copyright © 2023 Neo 3</p>
-    </div>
-  </footer>  
-  </body>
+        
+        
+</body>
 </html>
+
+
+
+
