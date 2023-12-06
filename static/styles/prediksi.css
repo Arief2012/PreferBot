@@ -1,245 +1,123 @@
-#menu {
-  height: 51px;
-  padding-left: 18px;
-  border-radius: 8px; 
-}
-#menu ul,
-#menu li {
-  margin: 0 auto;
-  padding: 0;
-  list-style: none;
-}
-#menu ul {
-  width: 100%;
-}
-#menu li {
-  float: left;
-  display: inline;
-  position: relative;
-}
-#menu a {
-  display: block;
-  line-height: 51px;
-  padding: 0 14px;
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 16px;
-}
-#menu a.dropdown-arrow:after {
-  content: '\25BE';
-  margin-left: 5px;
-}
-#menu li a:hover {
-  color: #0099cc;
-  background: #f2f2f2;
-}
-#menu input {
-  display: none;
-  margin: 0;
-  padding: 0;
-  height: 51px;
-  width: 100%;
-  opacity: 0;
-  cursor: pointer;
-}
-#menu label {
-  display: none;
-  line-height: 51px;
-  text-align: center;
-  position: absolute;
-  left: 35px;
-}
-#menu label:before {
-  font-size: 1.6em;
-  content: '\2261';
-  margin-left: 20px;
-}
-#menu ul.sub-menus {
-  height: auto;
-  overflow: hidden;
-  width: 170px;
-  background: #444444;
-  position: absolute;
-  z-index: 99;
-  display: none;
-}
-#menu ul.sub-menus li {
-  display: block;
-  width: 100%;
-}
-#menu ul.sub-menus a {
-  color: #ffffff;
-  font-size: 16px;
-}
-#menu li:hover ul.sub-menus {
-  display: block;
-}
-#menu ul.sub-menus a:hover {
-  background: #f2f2f2;
-  color: #444444;
-}
-@media screen and (max-width: 800px) {
-  #menu {
-    position: relative;
-  }
-  #menu ul {
-    background: #111;
-    position: absolute;
-    top: 100%;
-    right: 0;
-    left: 0;
-    z-index: 3;
-    height: auto;
-    display: none;
-  }
-  #menu ul.sub-menus {
-    width: 100%;
-    position: static;
-  }
-  #menu ul.sub-menus a {
-    padding-left: 30px;
-  }
-  #menu li {
-    display: block;
-    float: none;
-    width: auto;
-  }
-  #menu input,
-  #menu label {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-  }
-  #menu input {
-    z-index: 4;
-  }
-  #menu input:checked + label {
-    color: white;
-  }
-  #menu input:checked + label:before {
-    content: '\00d7';
-  }
-  #menu input:checked ~ ul {
-    display: block;
-  }
-}
-
-
     /* CSS untuk mengatur tampilan elemen select */
-select.custom-select {
-  border: 1px solid #ccc; /* Warna dan ketebalan border input fields */
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-}
-
-
-
-form {
-  max-width: 400px;
-  margin: 0 auto;
-}
-
-input[type='submit'] {
-  background-color: #fb6f92;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 4px;
-}
-
-.center-button {
-  text-align: center;
-}
-
-.back{
-  input[type='submit'] {
-    background-color: #fcacd1;
-    color: white;
-  }
-  input[type='submit']:hover {
-    background-color: #ff93f0;
-  }
-}
-.label{
-  font-weight: bold;
-}
-
-.prediction {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 10px;
-  text-align: center;
-}
-/* background */
-body {
-  background-color: #c0e213;
-}
-#form_prediksi { 
-  border-width: 1rem;
-}
-
-
-/* tombol prediksi */
-input[type='submit'] {
-  background-color: #fcacd1;
-  color: white;
-}
-input[type='submit']:hover {
-  background-color: #f66ec0;
-}
-
-
-/* tombol back */
-.back {
-  background-color: #f6f6f6;
-
-  font-weight: 700;
-  font-size: 20px;
-}
-
-
-/* Navbar */
-.navbar {
-  height: 60px;
-  /* background-color: #fcdfef; */
-}
-
-.jumbotron{
-  padding: 3rem 3rem;
-  background-color: #fe5cb8;
-  background-image: url("/static/images/BG_pink.png");
-  background-size: cover;
-  background-attachment: fixed;
-
-}
-
-.navbar-text img {
-  max-height: 80px;
-}
-
-/* border */
- /* CSS untuk border formulir */
-.border {
-  border: 10px solid black; 
-  padding: 10px;
-}
-
-/* font */
-* {
-  font-family: "Helvetica", sans-serif;
-  font-size: 16px;
-  /* Properti font lainnya sesuai kebutuhan */
-}
-
-
-
-/* end border */
-
-html {
-  scroll-behavior: smooth;
-}
+    select.custom-select {
+      border: 1px solid #ffffff; /* Warna dan ketebalan border input fields */
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    
+    
+    
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    
+    input[type='submit'] {
+      background-color: #fcacd1;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 4px;
+      justify-content: center;
+    }
+    
+    .button {
+      background-color: #fcacd1;
+      text-align: center;
+      justify-content: center;
+      display: flex;
+      justify-content: center;
+      border-radius: 4px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    
+    
+    .label{
+      font-weight: bold;
+    }
+    
+    
+    
+    .prediction {
+      display: flex;
+      visibility: visible;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin-top: 10px;
+      text-align: center;
+    }
+    /* background */
+    body {
+      background-color: #c0e213;
+    }
+    #form_prediksi { 
+      border-width: 1rem;
+    }
+    
+    
+    /* tombol prediksi */
+    input[type='submit'] {
+      background-color: #fcacd1;
+      
+    }
+    input[type='submit']:hover {
+      background-color: #f66ec0;
+    }
+    
+    /* tombol back */
+    .back {
+      background-color: #f6f6f6;
+      font-weight: 700;
+      font-size: 20px;
+    }
+    
+    
+    /* Navbar */
+    .navbar {
+      height: 60px;
+      /* background-color: #fcdfef; */
+    }
+    
+    .jumbotron{
+      padding: 3rem 3rem;
+      background-color: #fe5cb8;
+      background-image: url("/static/images/BG_pink.png");
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    
+    .navbar-brand img {
+      max-height: 40px;
+    }
+    
+    .navbar-text img {
+      max-height: 80px;
+    }
+    
+    /* border */
+     /* CSS untuk border formulir */
+    .border {
+      border: 10px solid black; 
+      padding: 10px;
+    }
+    
+    /* font */
+    * {
+      font-family: "Helvetica", sans-serif;
+      font-size: 16px;
+      /* Properti font lainnya sesuai kebutuhan */
+    }
+    
+    
+    
+    /* end border */
+    
+    html {
+      scroll-behavior: smooth;
+    }
+    
